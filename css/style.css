@@ -69,19 +69,24 @@
 }
 
 .btn-reserva {
-    background-color: #198754;   /* color inicial */
+    background-color: #198754;
+    /* color inicial */
     color: #fff;
     padding: 8px 20px;
     border-radius: 7px;
     border: none;
     font-weight: 500;
-    transition: all 0.5s ease;   /* suaviza el cambio */
+    transition: all 0.5s ease;
+    /* suaviza el cambio */
 }
 
 .btn-reserva:hover {
-    background-color: #076038;   /* cambia el color */
-    transform: translateY(-3px); /* se eleva un poco */
-    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.438); /* sombra */
+    background-color: #076038;
+    /* cambia el color */
+    transform: translateY(-3px);
+    /* se eleva un poco */
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.438);
+    /* sombra */
 }
 
 .btn-square {
@@ -135,6 +140,7 @@
 }
 
 @media (max-width: 991.98px) {
+
     .navbar .navbar-nav .nav-link,
     .navbar.bg-dark .navbar-nav .nav-link {
         margin-right: 0;
@@ -212,7 +218,7 @@
         position: relative;
         min-height: 700px;
     }
-    
+
     #header-carousel .carousel-item img {
         position: absolute;
         width: 100%;
@@ -306,19 +312,19 @@
         max-width: 100% !important;
     }
 
-    .feature-text  {
+    .feature-text {
         padding-left: calc(((100% - 960px) / 2) + .75rem);
     }
 }
 
 @media (min-width: 1200px) {
-    .feature-text  {
+    .feature-text {
         padding-left: calc(((100% - 1140px) / 2) + .75rem);
     }
 }
 
 @media (min-width: 1400px) {
-    .feature-text  {
+    .feature-text {
         padding-left: calc(((100% - 1320px) / 2) + .75rem);
     }
 }
@@ -355,19 +361,19 @@
         max-width: 100% !important;
     }
 
-    .contact-text  {
+    .contact-text {
         padding-left: calc(((100% - 960px) / 2) + .75rem);
     }
 }
 
 @media (min-width: 1200px) {
-    .contact-text  {
+    .contact-text {
         padding-left: calc(((100% - 1140px) / 2) + .75rem);
     }
 }
 
 @media (min-width: 1400px) {
-    .contact-text  {
+    .contact-text {
         padding-left: calc(((100% - 1320px) / 2) + .75rem);
     }
 }
@@ -408,4 +414,47 @@
 
 .footer .copyright a:hover {
     color: var(--bs-light);
+}
+
+/*** Exterior ***/
+.swiper {
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 21vh;
+    --swiper-theme-color: grey;
+}
+
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+    color: rgb(250, 248, 248);
+}
+
+.swiper-slide {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* se adapta sin deformarse */
+    border-radius: 0;
+}
+
+/* .navbar.logo {
+    display: block;
+} */
+
+@media (min-width: 992px) {
+    .swiper-slide {
+        height: 600px;
+    }
+
+    .swiper-slide img {
+        border-radius: 8px;
+    }
 }
