@@ -249,7 +249,7 @@
     transition: .5s;
 }
 
-.room-item:hover .room-detail img {
+.room-item:hover .room-detail .img-princ {
     transform: scale(1.2);
     cursor: pointer;
 }
