@@ -2,7 +2,7 @@
     loop: true,
     autoplay: {
         delay: 3000, // cambia cada 3 segundos
-        disableOnInteraction: false, // sigue aunque el usuario interactúe
+        disableOnInteraction: true, // no sigue si el usuario interactúa
       },
     pagination: {
       el: '.swiper-pagination',
