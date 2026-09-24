@@ -250,7 +250,7 @@
 }
 
 .room-item:hover .room-detail .img-princ {
-    transform: scale(1.2);
+    /* transform: scale(1.2); */
     cursor: pointer;
 }
 
@@ -263,6 +263,13 @@
     font-size: x-large;
     color: rgb(36, 121, 15);
 }
+
+.room-item .room-detail .img-thumbnail {
+  padding: 0;
+  border: none;
+  background: none;
+}
+
 
 /*** Service ***/
 .service-item {
