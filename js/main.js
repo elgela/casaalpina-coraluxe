@@ -42,18 +42,18 @@
 })(jQuery);
 
 // Menu collapse
-// Selecciona todos los links dentro del menú colapsado
-document.querySelectorAll('.navbar-collapse .nav-link, .navbar-collapse .dropdown-item')
-    .forEach(function (link) {
+document.addEventListener('DOMContentLoaded', function () {
+    var navbarCollapse = document.querySelector('.navbar-collapse');
+
+    // Escuchar clicks en todos los links dentro del menú
+    navbarCollapse.querySelectorAll('a').forEach(function (link) {
         link.addEventListener('click', function () {
-            // Si es un dropdown-toggle, no colapsar
-            if (!link.classList.contains('dropdown-toggle')) {
-                var navbarCollapse = document.querySelector('.navbar-collapse.show');
-                if (navbarCollapse) {
-                    var bsCollapse = new bootstrap.Collapse(navbarCollapse, {
-                        toggle: true
-                    });
-                }
-            }
+            // Ignorar el toggle del dropdown (ej: "Cabañas")
+            if (link.classList.contains('dropdown-toggle')) return;
+
+            // Cerrar el menú hamburguesa si está abierto
+            var bsCollapse = bootstrap.Collapse.getOrCreateInstance(navbarCollapse);
+            bsCollapse.hide();
         });
     });
+});
