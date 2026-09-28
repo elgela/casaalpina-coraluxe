@@ -318,7 +318,7 @@
     height: 100%;
     top: 0;
     left: 0;
-    background: var(--bs-primary);
+    background: var(--bs-green);
     border-radius: 4px;
     z-index: 1;
 }
