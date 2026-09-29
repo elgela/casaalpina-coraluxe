@@ -57,3 +57,38 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     });
 });
+
+// Counter Fact
+function animateCounter(counter) {
+    const target = +counter.getAttribute('data-target');
+    let current = 0;
+    const increment = target / 100; // velocidad del conteo
+
+    const updateCounter = () => {
+        current += increment;
+        if (current < target) {
+            counter.textContent = Math.ceil(current);
+            requestAnimationFrame(updateCounter);
+        } else {
+            counter.textContent = target; // asegurar número final exacto
+        }
+    };
+
+    updateCounter();
+}
+
+const counters = document.querySelectorAll('.counter');
+const options = { threshold: 0.5 };
+
+const observer = new IntersectionObserver((entries, obs) => {
+    entries.forEach(entry => {
+        if (entry.isIntersecting) {
+            animateCounter(entry.target);
+            obs.unobserve(entry.target); // que se ejecute solo una vez
+        }
+    });
+}, options);
+
+counters.forEach(counter => {
+    observer.observe(counter);
+});
