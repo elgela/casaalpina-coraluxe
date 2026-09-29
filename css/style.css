@@ -308,6 +308,13 @@
   }
 }
 
+.btn-close {
+    z-index: 1050;
+    color: #ffffff;
+    opacity: 1;
+    font-size: xx-large;
+    background-color: transparent !important;
+}
 
 /*** Service ***/
 .service-item {
