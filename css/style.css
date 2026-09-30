@@ -122,14 +122,13 @@
     left: 0;
     z-index: 9;
     transition: .5s;
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(14, 42, 74, .5);
 }
 
 .navbar .navbar-nav .nav-link {
     margin-right: 25px;
     padding: 40px 0;
     color: var(--bs-white);
-    background: rgba(22, 22, 22, 0.822);
     font-size: 18px;
     outline: none;
     transition: .5s;
@@ -141,11 +140,12 @@
 }
 
 @media (max-width: 991.98px) {
-
     .navbar .navbar-nav .nav-link,
     .navbar.bg-dark .navbar-nav .nav-link {
         margin-right: 0;
         padding: 10px 0;
+        background: rgba(22, 22, 22, 0.822) ;
+        padding: 20px 10px;
     }
 
     .navbar .navbar-nav {
