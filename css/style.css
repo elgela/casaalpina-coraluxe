@@ -475,6 +475,10 @@
     color: var(--bs-light);
 }
 
+.footer .row .col-lg-3 {
+    flex: auto;
+}
+
 /*** Exterior ***/
 .swiper {
     width: 100%;
