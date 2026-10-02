@@ -1565,7 +1565,7 @@
     <div class="container-fluid bg-dark text-light footer pt-5 wow fadeIn" data-wow-delay="0.1s">
         <div class="container py-5">
             <div class="row g-5">
-                <div class="col-lg-3 col-md-5">
+                <div class="col-lg-3 col-md-5 text-center">
                     <h4 class="text-white mb-4">Contacto</h4>
                     <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i><a
                             href="https://maps.app.goo.gl/FvRoMXFaYyt1hfyH9" target="_blank">Icalma 2904, Tandil, Bs.
@@ -1573,7 +1573,7 @@
                     <!-- <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>2494 549 919</p> -->
                     <p class="mb-2"><i class="fa fa-envelope me-3"></i><a
                             href="mailto:contacto@casaalpina.com.ar">contacto@casaalpina.com.ar</a></p>
-                    <div class="d-flex pt-2">
+                    <div class="d-flex pt-2 justify-content-center">
                         <a class="btn btn-square btn-primary me-2" href="https://www.instagram.com/casaalpina"
                             target="_blank"><i class="bi bi-instagram"></i></a>
                         <a class="btn btn-square btn-primary me-2" href="https://www.facebook.com/casaalpina.tandil/"
@@ -1597,122 +1597,29 @@
                 <div class="col-lg-3 col-md-6">
                     <h4 class="text-white mb-4 d-flex justify-content-center">Imágenes</h4>
                     <div class="row g-2">
-                        <div id="imgModal" class="position-relative rounded overflow-hidden mb-3 col-4">
-                            <!-- Imagen que abre el modal -->
-                            <picture>
-                                <!-- Imagen para moviles -->
-                                <!-- <source srcset="img/galeria/IMG_0157-movil.webp" media="(max-width: 768px)"
-                                     data-bs-toggle="modal" data-bs-target="#carouselModalGaleria"> -->
-                                <!-- Imagen para tablets -->
-                                <source srcset="img/galeria/IMG_0157.webp" media="(max-width: 1200px)"
-                                     data-bs-toggle="modal" data-bs-target="#carouselModalGaleria">
-                                <!-- Imagen para PC -->
-                                <img src="img/galeria/IMG_0157.webp" alt="exterior bancos jardín"
-                                    class="img-fluid rounded border p-1 w-100" data-bs-toggle="modal"
-                                    data-bs-target="#carouselModalGaleria">
-                            </picture>
-                            <picture>
-                                <!-- Imagen para moviles -->
-                                <!-- <source srcset="img/galeria/IMG_1283-movil.webp" media="(max-width: 768px)"
-                                     data-bs-toggle="modal" data-bs-target="#carouselModalGaleria"> -->
-                                <!-- Imagen para tablets -->
-                                <source srcset="img/galeria/IMG_1283.webp" media="(max-width: 1200px)"
-                                     data-bs-toggle="modal" data-bs-target="#carouselModalGaleria">
-                                <!-- Imagen para PC -->
-                                <img src="img/galeria/IMG_1283.webp" alt="exterior bancos jardín"
-                                    class="img-fluid rounded border p-1 w-100" data-bs-toggle="modal"
-                                    data-bs-target="#carouselModalGaleria">
-                            </picture>
-
-                        </div>
-                        <div class="modal fade" id="carouselModalGaleria" tabindex="-1" aria-hidden="true">
-                            <div class="modal-dialog modal-lg modal-dialog-centered">
-                                <div class="modal-content">
-                                    <!-- Botón de cierre -->
-                                    <button type="button" class="btn-close position-absolute top-0 end-0 m-2"
-                                        data-bs-dismiss="modal" aria-label="Cerrar"></button>
-                                    <div class="modal-body p-0">
-                                        <!-- Carrusel dentro del modal -->
-                                        <div id="carouselGaleria" class="carousel slide" data-bs-ride="carousel">
-                                            <div class="carousel-inner">
-                                                <div class="carousel-item active">
-                                                    <picture>
-                                                        <!-- Imagen para moviles -->
-                                                        <source srcset="img/galeria/IMG_0157-movil.webp"
-                                                            media="(max-width: 768px)">
-                                                        <!-- Imagen para tablets -->
-                                                        <source srcset="img/galeria/IMG_0157.webp"
-                                                            media="(max-width: 1200px)">
-                                                        <!-- Imagen para PC -->
-                                                        <img src="img/galeria/IMG_0157.webp"
-                                                            alt="Imagen principal de frente" class="img-fluid w-100">
-                                                    </picture>
-                                                </div>
-                                                <div class="carousel-item">
-                                                    <picture>
-                                                        <!-- Imagen para moviles -->
-                                                        <source srcset="img/galeria/IMG_1283-movil.webp"
-                                                            media="(max-width: 768px)">
-                                                        <!-- Imagen para tablets -->
-                                                        <source srcset="img/galeria/IMG_1283.webp"
-                                                            media="(max-width: 1200px)">
-                                                        <!-- Imagen para PC -->
-                                                        <img src="img/galeria/IMG_1283.webp"
-                                                            alt="Imagen principal de frente" class="img-fluid w-100">
-                                                    </picture>
-                                                </div>
-                                                <div class="carousel-item">
-                                                    <picture>
-                                                        <!-- Imagen para moviles -->
-                                                        <source srcset="img/galeria/IMG_1283-movil.webp"
-                                                            media="(max-width: 768px)">
-                                                        <!-- Imagen para tablets -->
-                                                        <source srcset="img/galeria/IMG_1283.webp"
-                                                            media="(max-width: 1200px)">
-                                                        <!-- Imagen para PC -->
-                                                        <img src="img/galeria/IMG_1283.webp"
-                                                            alt="Imagen principal de frente" class="img-fluid w-100">
-                                                    </picture>
-                                                </div>
-
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- Controles -->
-                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselGaleria"
-                                data-bs-slide="prev">
-                                <span class="carousel-control-prev-icon"></span>
-                            </button>
-                            <button class="carousel-control-next" type="button" data-bs-target="#carouselGaleria"
-                                data-bs-slide="next">
-                                <span class="carousel-control-next-icon"></span>
-                            </button>
-                        </div>
-                        <!-- <div class="col-4">
-                            <img class="img-fluid rounded border p-1 w-100" src="img/galeria/IMG_0162.png" alt="">
+                        <div class="col-4">
+                            <a href="img/galeria/IMG_0157.webp"><img class="img-fluid rounded border p-1 w-100" src="img/galeria/IMG_0157.webp" alt=""></a>
                         </div>
                         <div class="col-4">
-                            <img class="img-fluid rounded border p-1 w-100" src="img/gallery-sm-2.jpg" alt="">
+                            <a href="img/galeria/IMG_0162.webp"><img class="img-fluid rounded border p-1 w-100" src="img/galeria/IMG_0162.webp" alt=""></a>
                         </div>
                         <div class="col-4">
-                            <img class="img-fluid rounded border p-1 w-100" src="img/gallery-sm-3.jpg" alt="">
+                            <a href="img/galeria/IMG_1283.webp"><img class="img-fluid rounded border p-1 w-100" src="img/galeria/IMG_1283.webp" alt=""></a>
                         </div>
                         <div class="col-4">
-                            <img class="img-fluid rounded border p-1 w-100" src="img/gallery-sm-4.jpg" alt="">
+                            <a href="img/galeria/IMG_1377.webp"><img class="img-fluid rounded border p-1 w-100" src="img/galeria/IMG_1377.webp" alt=""></a>
                         </div>
                         <div class="col-4">
-                            <img class="img-fluid rounded border p-1 w-100" src="img/gallery-sm-5.jpg" alt="">
+                            <a href="img/galeria/IMG_1413.webp"><img class="img-fluid rounded border p-1 w-100" src="img/galeria/IMG_1413.webp" alt=""></a>
                         </div>
                         <div class="col-4">
-                            <img class="img-fluid rounded border p-1 w-100" src="img/gallery-sm-6.jpg" alt="">
-                        </div> -->
+                            <a href="img/galeria/rotonda_lucesNavidad.webp"><img class="img-fluid rounded border p-1 w-100" src="img/galeria/rotonda_lucesNavidad.webp" alt=""></a>
+                        </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6">
+                <div class="col-lg-3 col-md-6 w-100">
                     <h4 class="text-white mb-4">Newsletter</h4>
-                    <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
+                    <p>Suscribite y recibí las últimas noticias</p>
                     <div class="position-relative">
                         <input class="form-control border-0 w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
                         <button type="button"
@@ -1732,8 +1639,6 @@
                                 title="Flaticon">www.flaticon.es'</a></div>
                     </div>
                     <div class="col-md-6 text-center text-md-end">
-                        <!--/*** The author’s attribution link below must remain intact on your website. ***/-->
-                        <!--/*** If you wish to remove this credit link, please purchase the Pro Version from https://htmlcodex.com/downloading/?item=3928 ***/-->
                         Designed By <a href="https://htmlcodex.com" target="_blank">HTML Codex</a>
                     </div>
                 </div>
