@@ -475,8 +475,14 @@
     color: var(--bs-light);
 }
 
-.footer .row .col-lg-3 {
-    flex: auto;
+.footer .row .g-2 {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.footer .row .g-2 picture {
+    flex: 0 0 auto;
 }
 
 /*** Exterior ***/
