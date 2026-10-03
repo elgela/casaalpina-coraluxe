@@ -500,7 +500,7 @@
 
 @media (min-width: 992px) {
     .footer .row .col-lg-3 {
-        flex: 0 0 33.33%;
+        flex: 0 50%;
     }
 }
 
