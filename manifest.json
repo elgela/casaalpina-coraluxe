@@ -1,6 +1,6 @@
 {
     "name": "Cabañas casaalpina",
-    "short_name": "casaalpina coraluxe",
+    "short_name": "casaalpina",
     "start_url": "index.html",
     "scope": "./",
     "display": "standalone",
