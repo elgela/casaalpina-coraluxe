@@ -424,6 +424,10 @@
 
 
 /*** Contact ***/
+#contacto {
+    margin-top: 9rem;
+}
+
 @media (min-width: 992px) {
     .container.contact {
         max-width: 100% !important;
