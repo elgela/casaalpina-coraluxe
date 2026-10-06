@@ -539,6 +539,6 @@
 
 @media (max-width: 992px) {
     .navbar .logo {
-        display: none;
+        /* display: none; */
     }
 }
