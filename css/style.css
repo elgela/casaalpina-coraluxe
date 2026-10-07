@@ -318,6 +318,35 @@
     }
 }
 
+@media (max-width: 768px) {
+    #welcomeModal .modal-dialog {
+        max-width: 75%;
+        /* casi toda la pantalla en móviles */
+        margin: 0 auto;
+        background: none;
+    }
+
+    #welcomeModal .modal-content {
+        background-color: transparent !important;
+        /* elimina el fondo negro del modal */
+        border: none;
+        /* quita el borde blanco si lo tenías */
+    }
+
+    #welcomeModal .modal-dialog {
+        max-width: 100%;
+        margin: 0;
+    }
+
+    #welcomeModal .modal-body {
+        padding: 0;
+    }
+
+    .modal-body .btn-close {
+        filter: invert(1) grayscale(100%) brightness(200%);
+    }
+}
+
 .btn-close {
     z-index: 1050;
     color: #ffffff;
@@ -537,8 +566,3 @@
     border-radius: 0;
 }
 
-@media (max-width: 992px) {
-    .navbar .logo {
-        /* display: none; */
-    }
-}

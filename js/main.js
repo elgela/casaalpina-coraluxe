@@ -92,3 +92,11 @@ const observer = new IntersectionObserver((entries, obs) => {
 counters.forEach(counter => {
     observer.observe(counter);
 });
+
+// Mostrar modal al cargar la página
+window.onload = function () {
+    setTimeout(function () {
+        var myModal = new bootstrap.Modal(document.getElementById('welcomeModal'));
+        myModal.show();
+    }, 1000); // 1000 ms = 1 segundo
+};
