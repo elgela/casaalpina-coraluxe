@@ -1,4 +1,29 @@
 [
-    {"imagen": "img/blogs/blog-cafetera.png", "titulo": "Café y sierras, la combinación perfecta", "autor": "turesponsive", "tema": "Equipamiento", "fecha": "2 Octubre 2026", "contenido": "Disfrutar de un buen café rodeado de paisajes serranos es una experiencia ideal para relajarse y conectar con la naturaleza.", "boton": ""
+    {
+        "imagen": "img/blogs/blog-cafetera.png",
+        "titulo": "Café y sierras, la combinación perfecta",
+        "autor": "turesponsive",
+        "tema": "Equipamiento",
+        "fecha": "2 Octubre 2026",
+        "contenido": "Disfrutar de un buen café rodeado de paisajes serranos es una experiencia ideal para relajarse y conectar con la naturaleza.",
+        "boton": ""
+    },
+    {
+        "imagen": "img/blogs/blog-2.jpg",
+        "titulo": "Lorem ipsum",
+        "autor": "turesponsive",
+        "tema": "Equipamiento",
+        "fecha": "2 Octubre 2026",
+        "contenido": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, pariatur quidem, facere nostrum eveniet perspiciatis enim dignissimos corporis harum atque voluptas tempora quia ipsa tempore molestias expedita voluptatem ipsum repudiandae?",
+        "boton": ""
+    },
+    {
+        "imagen": "img/blogs/blog-3.jpg",
+        "titulo": "Lorem ipsum",
+        "autor": "turesponsive",
+        "tema": "Equipamiento",
+        "fecha": "2 Octubre 2026",
+        "contenido": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, pariatur quidem, facere nostrum eveniet perspiciatis enim dignissimos corporis harum atque voluptas tempora quia ipsa tempore molestias expedita voluptatem ipsum repudiandae?",
+        "boton": ""
     }
 ]
