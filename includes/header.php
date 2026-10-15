@@ -81,8 +81,8 @@
                     <div class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Cabañas</a>
                         <div class="dropdown-menu m-0">
-                            <a href="#cabanias_grid" class="dropdown-item">Grid <i class="bi bi-grid"></i></a>
-                            <a href="index.html#detalles" class="dropdown-item">Detalles</a>
+                            <a href="cabs.php" class="dropdown-item">Grid <i class="bi bi-grid"></i></a>
+                            <a href="index.php#detalles" class="dropdown-item">Detalles</a>
                         </div>
                     </div>
                     <div class="nav-item dropdown">
