@@ -1,4 +1,4 @@
-<?php include 'includes/heater.php'; ?>
+<?php include 'includes/header.php'; ?>
 
     <!-- Cabañas Start -->
     <div id="cabanias_grid" class="container-fluid py-6">
