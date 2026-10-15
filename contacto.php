@@ -51,6 +51,8 @@
     </script>
 </head>
 
+<?php $current = basename($_SERVER['PHP_SELF']); ?>
+
 <body>
     <div class="container-fluid p-0">
         <nav class="navbar navbar-expand-lg navbar-dark px-lg-5">
@@ -91,8 +93,7 @@
                                 class="dropdown-item">Atractivos Tandil <i class="bi bi-box-arrow-up-right"></i></a>
                         </div>
                     </div>
-                    <a href="contacto.html"
-                        class="nav-item nav-link <?= $current == 'contacto.html' ? 'active' : '' ?>">Contacto</a>
+                    <a href="contacto.php" class="nav-item nav-link <?= $current == 'contacto.php' ? 'active' : '' ?>">Contacto</a>
                 </div>
                 <a class="btn btn-primary btn-reserva d-none d-lg-flex btn-success"
                     href="https://wa.me/2494549919?text=Hola, %20quiero%20hacer%20una%20reserva" target="_blank"
