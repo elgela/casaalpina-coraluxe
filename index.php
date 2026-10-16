@@ -66,7 +66,7 @@
     <!-- Header Start -->
     <div class="container-fluid p-0">
         <nav class="navbar navbar-expand-lg navbar-dark px-lg-5">
-            <a href="index.html" class="navbar-brand ms-4 ms-lg-0">
+            <a href="index.php" class="navbar-brand ms-4 ms-lg-0">
                 <img src="img/logos/logo_casaalpina-nobg.webp" alt="logo CasaAlpina"
                     style="width: 110px;margin-left: 20%;">
                 <h1 class="mb-0 text-success">CasaAlpina</h1>
