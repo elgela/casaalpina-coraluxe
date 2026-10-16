@@ -51,7 +51,7 @@
     <!-- Header Start -->
     <div class="container-fluid p-0">
         <nav class="navbar navbar-expand-lg navbar-dark px-lg-5">
-            <a href="index.html" class="navbar-brand ms-4 ms-lg-0">
+            <a href="index.php" class="navbar-brand ms-4 ms-lg-0">
                 <img src="img/logos/logo_casaalpina-nobg.webp" class="logo" alt="logo casaalpina" style="width: 130px;">
             </a>
             <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse"
@@ -60,30 +60,36 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <div class="navbar-nav mx-auto p-4 p-lg-0">
-                    <a href="index.html" class="nav-item nav-link active">Inicio</a>
+                    <a href="index.php" class="nav-item nav-link active">Inicio</a>
                     <div class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Cabañas</a>
                         <div class="dropdown-menu m-0">
-                            <a href="index.html#cabanias_grid" class="dropdown-item">Grid</a>
-                            <a href="index.html#detalles" class="dropdown-item">Detalles</a>
+                            <a href="cabs.php" class="dropdown-item">Grid</a>
+                            <a href="index.php#detalles" class="dropdown-item">Detalles</a>
                         </div>
                     </div>
                     <div class="nav-item dropdown">
-                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Blog</a>
-                        <div class="dropdown-menu m-0">
-                            <a href="index.html#blog" class="dropdown-item">Blog Post</a>
-                        </div>
+                        <a href="index.php#blog" class="nav-link">Blog</a>
+                        <!-- <div class="dropdown-menu m-0">
+                            <a href="#blog" class="dropdown-item">Blog Post</a>
+                        </div> -->
                     </div>
                     <div class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Páginas</a>
                         <div class="dropdown-menu m-0">
                             <a href="https://promos.casaalpina.com.ar/" target="_blank" class="dropdown-item">Promos</a>
-                            <a href="https://www.google.co.ve/travel/hotels/entity/ChkIydLc2uDKy4SoARoML2cvMTFyOTA5Zmd4EAE/reviews?utm_campaign=sharing&utm_medium=link&utm_source=htls&ts=CAEaIAoCGgASGhIUCgcI6g8QChgaEgcI6g8QChgbGAEyAhAAKgQKABoA" target="_blank" class="dropdown-item">Testimonios</a>
-                            <a href="https://www.tandil.tur.ar/atractivos.php" target="_blank" class="dropdown-item">Atracciones de Tandil</a>
+                            <a href="https://www.google.co.ve/travel/hotels/entity/ChkIydLc2uDKy4SoARoML2cvMTFyOTA5Zmd4EAE/reviews?utm_campaign=sharing&utm_medium=link&utm_source=htls&ts=CAEaIAoCGgASGhIUCgcI6g8QChgaEgcI6g8QChgbGAEyAhAAKgQKABoA"
+                                target="_blank" class="dropdown-item">Testimonios</a>
+                            <a href="https://www.tandil.tur.ar/atractivos.php" target="_blank"
+                                class="dropdown-item">Atracciones de Tandil</a>
                         </div>
                     </div>
-                    <a href="contacto.html" class="nav-item nav-link">Contacto</a>
+                    <a href="contacto.php" class="nav-item nav-link">Contacto</a>
                 </div>
+                <a class="btn btn-primary btn-reserva d-none d-lg-flex btn-success"
+                    href="https://wa.me/2494549919?text=Hola, %20quiero%20hacer%20una%20reserva" target="_blank"
+                    rel="noopener noreferrer">Reservar &nbsp<i class="bi bi-whatsapp"
+                        style="font-size: 1.1rem;"></i></a>
             </div>
         </nav>
 
@@ -197,8 +203,8 @@
                 <div class="modal-body">
                     <!-- <p>Gracias por visitar nuestra página.</p> -->
                     <img src="img/promos/clientesVIP.jpg" class="w-100" alt="clientes VIP promocion">
-                    <button type="button" class="btn-close position-absolute top-0 end-0 m-2 text-white" title="Cerrar" data-bs-dismiss="modal"
-                        aria-label="Cerrar"></button>
+                    <button type="button" class="btn-close position-absolute top-0 end-0 m-2 text-white" title="Cerrar"
+                        data-bs-dismiss="modal" aria-label="Cerrar"></button>
                 </div>
                 <!-- <div class="modal-footer">
                     <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Aceptar</button>
@@ -214,8 +220,8 @@
                 <div class="col-lg-3 col-md-5 text-center w-100">
                     <h4 class="text-white mb-4">Contacto</h4>
                     <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i><a
-                            href="https://maps.app.goo.gl/FvRoMXFaYyt1hfyH9" class="text-decoration-none" target="_blank"
-                            rel="noopener noreferrer">Icalma 2904, Tandil, Bs.
+                            href="https://maps.app.goo.gl/FvRoMXFaYyt1hfyH9" class="text-decoration-none"
+                            target="_blank" rel="noopener noreferrer">Icalma 2904, Tandil, Bs.
                             As.</a></p>
                     <!-- <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>2494 549 919</p> -->
                     <p class="mb-2"><i class="fa fa-envelope me-3"></i><a class="text-decoration-none"
