@@ -190,8 +190,8 @@
                 </div>
                 <div class="col-lg-5 wow fadeIn" data-wow-delay="0.1s" style="min-height: 300px;">
                     <div class="position-relative h-100">
-                        <img class="img-fluid rounded position-absolute w-100 h-100" src="img/logos/logo_casaalpina-nobg.webp"
-                            style="object-fit: cover;" alt="">
+                        <img class="img-fluid rounded position-absolute w-100 h-75 mt-5" src="img/logos/logo_casaalpina-nobg.webp"
+                            style="object-fit: cover;" alt="logo de CasaAlpina">
                     </div>
                 </div>
             </div>
