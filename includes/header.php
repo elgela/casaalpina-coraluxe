@@ -77,7 +77,7 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <div class="navbar-nav mx-auto p-4 p-lg-0">
-                    <a href="index.php" class="nav-item nav-link <?= $current == 'index.html' ? 'active' : '' ?>">Inicio</a>
+                    <a href="index.php" class="nav-item nav-link <?= $current == 'index.php' ? 'active' : '' ?>">Inicio</a>
                     <div class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Cabañas</a>
                         <div class="dropdown-menu m-0">
@@ -86,7 +86,7 @@
                         </div>
                     </div>
                     <div class="nav-item dropdown">
-                        <a href="blog.php" class="nav-link">Blog</a>
+                        <a href="blog.php" class="nav-link <?=  $current == 'blog.php' ? 'active' : '' ?> ">Blog</a>
                         <!-- <div class="dropdown-menu m-0">
                             <a href="#blog" class="dropdown-item">Blog Post</a>
                         </div> -->
