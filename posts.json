@@ -1,11 +1,20 @@
 [
     {
-        "imagen": "img/blogs/blog-cafetera.jpg",
-        "titulo": "Café y sierras, la combinación perfecta",
+        "imagen": "img/blogs/estadia_prolongada.webp",
+        "titulo": "Estadía prolongada",
         "autor": "turesponsive",
-        "tema": "Equipamiento",
-        "fecha": "2 Octubre 2026",
-        "contenido": "Disfrutar de un buen café rodeado de paisajes serranos es una experiencia ideal para relajarse y conectar con la naturaleza.",
+        "tema": "Promoción",
+        "fecha": "18 Octubre 2026",
+        "contenido": "Incluye parrillada para todos los huéspedes (sin bebida ni postre) en Brasero Argentino (Av. Avellaneda 901). Válido para ser usado durante la estadía en CasaAlpina entre 21/9/26 y 21/12/26. No acumulable con otras promociones.",
+        "boton": ""
+    },
+    {
+        "imagen": "img/blogs/clientesVIP.webp",
+        "titulo": "Clientes VIP",
+        "autor": "turesponsive",
+        "tema": "Promoción",
+        "fecha": "17 Octubre 2026",
+        "contenido": "Los clientes VIP acceden a realizar Late Check Out hasta las 18hrs. Sin cargo (según disponibilidad). Válido entre el 21/9/26 y el 21/12/26",
         "boton": ""
     },
     {
@@ -18,21 +27,12 @@
         "boton": ""
     },
     {
-        "imagen": "img/blogs/estadia_prolongada.webp",
-        "titulo": "Estadía prolongada",
+        "imagen": "img/blogs/blog-cafetera.jpg",
+        "titulo": "Café y sierras, la combinación perfecta",
         "autor": "turesponsive",
-        "tema": "Promoción",
-        "fecha": "17 Octubre 2026",
-        "contenido": "Incluye parrillada para todos los huéspedes (sin bebida ni postre) en Brasero Argentino (Av. Avellaneda 901). Válido para ser usado durante la estadía en CasaAlpina entre 21/9/26 y 21/12/26. No acumulable con otras promociones.",
-        "boton": ""
-    },
-    {
-        "imagen": "img/blogs/clientesVIP.webp",
-        "titulo": "Clientes VIP",
-        "autor": "turesponsive",
-        "tema": "Promoción",
-        "fecha": "17 Octubre 2026",
-        "contenido": "Los clientes VIP acceden a realizar Late Check Out hasta las 18hrs. Sin cargo (según disponibilidad). Válido entre el 21/9/26 y el 21/12/26",
+        "tema": "Equipamiento",
+        "fecha": "2 Octubre 2026",
+        "contenido": "Disfrutar de un buen café rodeado de paisajes serranos es una experiencia ideal para relajarse y conectar con la naturaleza.",
         "boton": ""
     }
 ]
