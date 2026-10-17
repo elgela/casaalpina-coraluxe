@@ -86,7 +86,7 @@
                         </div>
                     </div>
                     <div class="nav-item dropdown">
-                        <a href="index.php#blog" class="nav-link">Blog</a>
+                        <a href="blog.php" class="nav-link">Blog</a>
                         <!-- <div class="dropdown-menu m-0">
                             <a href="#blog" class="dropdown-item">Blog Post</a>
                         </div> -->
