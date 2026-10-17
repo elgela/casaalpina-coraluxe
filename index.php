@@ -238,7 +238,7 @@
     <!-- Fact Start -->
 
 
-    <!-- Caracteristicas Start -->
+    <!-- Caract Start -->
     <div id="detalles" class="container-fluid bg-light overflow-hidden px-lg-0">
         <div class="container feature px-lg-0">
             <div class="row g-0 mx-lg-0">
@@ -305,7 +305,7 @@
             </div>
         </div>
     </div>
-    <!-- Feature End -->
+    <!-- Caract End -->
 
 
     <!-- Service Start -->
@@ -355,152 +355,6 @@
     </div>
     <!-- Service Start -->
 
-
-    <!-- Contact Start -->
-    <!-- <div id="contacto" class="container-fluid bg-light overflow-hidden px-lg-0">
-        <div class="container contact px-lg-0">
-            <div class="row g-0 mx-lg-0">
-                <div class="col-lg-8 contact-text py-5 wow fadeIn" data-wow-delay="0.3s">
-                    <div class="p-lg-5 ps-lg-0">
-                        <p class="fs-4 font-dancing-script text-success mb-0">Contacto</p>
-                        <h1 class="display-4 mb-4">Pónte en contacto</h1>
-                        <form action="mailto.php" method="post">
-                            <div class="row g-3">
-                                <div class="col-sm-6 control-group">
-                                    <div class="form-floating">
-                                        <input type="text" name="nombre" class="form-control" id="name"
-                                            placeholder="Nombre" />
-                                        <label for="name">Nombre y Apellido</label>
-                                    </div>
-                                </div>
-                                <div class="col-sm-6 control-group">
-                                    <div class="form-floating">
-                                        <input type="email" name="email" class="form-control" id="email"
-                                            placeholder="Email" />
-                                        <label for="email">Email</label>
-                                    </div>
-                                </div>
-                                <div class="col-sm-6 control-group">
-                                    <div class="form-floating">
-                                        <input type="text" name="movil" class="form-control" id="mobile"
-                                            placeholder="Movil" />
-                                        <label for="mobile">Número de teléfono</label>
-                                    </div>
-                                </div>
-                                <div class="col-sm-6 control-group">
-                                    <div class="form-floating">
-                                        <input type="text" name="asunto" class="form-control" id="subject"
-                                            placeholder="Asunto" />
-                                        <label for="subject">Asunto</label>
-                                    </div>
-                                </div>
-                                <div class="col-12 control-group">
-                                    <div class="form-floating">
-                                        <textarea style="height: 165px" class="form-control" name="mensaje" id="message"
-                                            placeholder="Mensaje"></textarea>
-                                        <label for="mensaje">Dejá tu mensaje aquí</label>
-                                    </div>
-                                </div>
-                                <div class="col-12">
-                                    <button type="submit" class="btn btn-success">Enviar mensaje</button>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-                <div class="col-lg-4 pe-lg-0" style="min-height: 400px;">
-                    <div class="position-relative h-100">
-                        <iframe class="position-absolute w-100 h-100" style="object-fit: cover;"
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2473.8045339665555!2d-59.16933052504287!3d-37.34828340757733!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95911f11299640c9%3A0xa8092e560b572949!2sCasaAlpina!5e1!3m2!1ses-419!2sar!4v1789875338373!5m2!1ses-419!2sar"
-                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                            referrerpolicy="strict-origin-when-cross-origin"></iframe>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div> -->
-    <!-- Contact End -->
-
-
-    <!-- Blog Start -->
-    <!-- <div id="blog" class="container-fluid py-6">
-        <div class="container">
-            <div class="text-center mx-auto wow fadeIn" data-wow-delay="0.1s" style="max-width: 600px;">
-                <p class="fs-4 font-dancing-script text-success mb-0">Blog Post</p>
-                <h1 class="display-4 mb-5">Detalles que hacen la diferencia</h1>
-            </div>
-            <div class="row g-4">
-                <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay="0.1s">
-                    <div class="blog-item rounded h-100 p-4">
-                        <div class="blog-img position-relative">
-                            <img class="img-fluid w-100 rounded-top" src="img/blogs/blog-cafetera.png"
-                                alt="cafetera nueva">
-                            <div class="blog-meta d-flex rounded-bottom overflow-hidden">
-                                <div
-                                    class="flex-shrink-0 d-flex flex-column justify-content-center text-center btn-success px-4">
-                                    <h5 class="text-white mb-n1">15</h5>
-                                    <p class="text-white mb-0">Sept</p>
-                                </div>
-                                <div class="bg-light w-100 h-50 d-flex align-items-center align-self-end">
-                                    <small class="ms-3"><i class="fa fa-user text-primary me-2"></i>Admin</small>
-                                    <small class="ms-3"><i class="fa fa-folder text-primary me-2"></i>Travel</small>
-                                </div>
-                            </div>
-                        </div>
-                        <p class="h5 d-inline-block">Café y sierras, la combinación perfecta</a>
-                        <p>Disfrutar de un buen café rodeado de paisajes serranos es una experiencia ideal para
-                            relajarse y conectar con la naturaleza.</p>
-                        <a href="" class="btn btn-success px-4">Leer más</a>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay="0.3s">
-                    <div class="blog-item rounded h-100 p-4">
-                        <div class="blog-img position-relative">
-                            <img class="img-fluid w-100 rounded-top" src="img/blogs/blog-2.jpg" alt="">
-                            <div class="blog-meta d-flex rounded-bottom overflow-hidden">
-                                <div
-                                    class="flex-shrink-0 d-flex flex-column justify-content-center text-center btn-success px-4">
-                                    <h5 class="text-white mb-n1">01</h5>
-                                    <p class="text-white mb-0">Jan</p>
-                                </div>
-                                <div class="bg-light w-100 h-50 d-flex align-items-center align-self-end">
-                                    <small class="ms-3"><i class="fa fa-user text-primary me-2"></i>Admin</small>
-                                    <small class="ms-3"><i class="fa fa-folder text-primary me-2"></i>Travel</small>
-                                </div>
-                            </div>
-                        </div>
-                        <p class="h5 d-inline-block">Top seven hotel trends to watch in 2045</a>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla mauris nulla, vestibulum sed
-                            mollis non, efficitur in mauris.</p>
-                        <a href="" class="btn btn-success px-4">Read More</a>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay="0.5s">
-                    <div class="blog-item rounded h-100 p-4">
-                        <div class="blog-img position-relative">
-                            <img class="img-fluid w-100 rounded-top" src="img/blogs/blog-3.jpg" alt="">
-                            <div class="blog-meta d-flex rounded-bottom overflow-hidden">
-                                <div
-                                    class="flex-shrink-0 d-flex flex-column justify-content-center text-center btn-success px-4">
-                                    <h5 class="text-white mb-n1">01</h5>
-                                    <p class="text-white mb-0">Jan</p>
-                                </div>
-                                <div class="bg-light w-100 h-50 d-flex align-items-center align-self-end">
-                                    <small class="ms-3"><i class="fa fa-user text-primary me-2"></i>Admin</small>
-                                    <small class="ms-3"><i class="fa fa-folder text-primary me-2"></i>Travel</small>
-                                </div>
-                            </div>
-                        </div>
-                        <p class="h5 d-inline-block">Five best things to do in Baa Atoll, Maldives</a>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla mauris nulla, vestibulum sed
-                            mollis non, efficitur in mauris.</p>
-                        <a href="" class="btn btn-success px-4">Read More</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div> -->
-    <!-- Blog End -->
 
     <!-- Modal al cargar pagina -->
     <div class="modal fade" id="welcomeModal" data-bs-backdrop="true" tabindex="-1" aria-hidden="true">
