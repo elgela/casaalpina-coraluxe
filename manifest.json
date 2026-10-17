@@ -1,7 +1,7 @@
 {
     "name": "Cabañas CasaAlpina",
     "short_name": "CasaAlpina",
-    "start_url": "/index.php",
+    "start_url": "/blog.php",
     "scope": "./",
     "display": "standalone",
     "background_color": "#ffffff",
