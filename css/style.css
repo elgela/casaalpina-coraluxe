@@ -689,3 +689,19 @@ a.btn_blog {
     /* se adapta sin deformarse */
     border-radius: 0;
 }
+
+/*** Ubicacion ***/
+.ubicacion .row {
+    margin-top: 150px;
+}
+
+.address {
+  margin-top: 20px; /* en móviles, separa del mapa */
+  text-align: center;
+}
+@media (min-width: 992px) {
+  .address {
+    margin-top: 0; /* en escritorio ya está al lado */
+    text-align: left;
+  }
+}
