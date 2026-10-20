@@ -85,8 +85,8 @@
                             <a href="#detalles" class="dropdown-item">Detalles</a>
                         </div>
                     </div>
-                    <div class="nav-item dropdown">
-                        <a href="blog.php" class="nav-link">Blog</a>
+                    <div class="nav-item dropdown promos">
+                        <a href="blog.php" class="nav-link">Promos</a>
                         <!-- <div class="dropdown-menu m-0">
                             <a href="#blog" class="dropdown-item">Blog Post</a>
                         </div> -->
@@ -103,7 +103,7 @@
                                 class="dropdown-item">Atractivos Tandil <i class="bi bi-box-arrow-up-right"></i></a>
                         </div>
                     </div>
-                    <a href="contacto.php" class="nav-item nav-link <?= $current == 'contacto.php' ? 'active' : '' ?>">Contacto</a>
+                    <a href="ubicacion.php" class="nav-item nav-link <?= $current == 'ubicacion.php' ? 'active' : '' ?>">Ubicación</a>
                 </div>
                 <a class="btn btn-primary btn-reserva d-none d-lg-flex btn-success"
                     href="https://wa.me/2494549919?text=Hola, %20quiero%20hacer%20una%20reserva" target="_blank"
