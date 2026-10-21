@@ -24,7 +24,7 @@
                         </div>
                         <div class="text-center mx-auto">
                             <img src="img/logos/tv-ancha.png" alt="tv led">
-                            <p class="small mb-0">TV Led 40"</p>
+                            <p class="small mb-0">TV Led 50"</p>
                         </div>
                         <div class="text-center mx-auto">
                             <img src="img/logos/horno-microondas.png" alt="logo microondas">
@@ -223,7 +223,7 @@
                         style="width: 80px">
                         <div class="btn-success text-white py-3">
                             <small>Hasta</small>
-                            <h5 class="text-white mb-0">5</h5>
+                            <h5 class="text-white mb-0">4</h5>
                             <small>personas</small>
                         </div>
                         <div class="text-center mx-auto">
@@ -244,7 +244,7 @@
                         </div>
                         <div class="text-center mx-auto">
                             <img src="img/logos/cama-matrimonial.png" alt="logo cama 2 plazas">
-                            <p class="small mb-0">Sommier a resortes 2 1/2 plazas</p>
+                            <p class="small mb-0">Sommier a resortes 2 plazas</p>
                         </div>
                         <div class="text-center mx-auto">
                             <img src="img/logos/sofa-cama.png" alt="sofa cama">
@@ -458,10 +458,9 @@
                         </div>
                         <label class="h5 d-inline-block">Del Solar</label>
                         <p>Hermosa construcción de dos plantas. En la
-                            planta alta tiene un amplio dormitorio, donde se ubican una cama sommiers de 2 plazas y
-                            media y una cama de una plaza.
+                            planta alta tiene un amplio dormitorio, donde se ubica una cama sommier de 2 plazas.
 
-                            En la planta baja : Sala de Estar, donde se ubican un sofacama de una plaza y otra cama
+                            En la planta baja : Sala de estar, donde se ubican un sofacama de una plaza y otra cama
                             desplazable de una plaza. Comedor diario, cocina y baño completo.
 
                             Deck techado de madera, con mesa, sillas y vista panorámica a los jardines del predio.
@@ -810,7 +809,7 @@
                         style="width: 80px">
                         <div class="btn-success text-white py-3">
                             <small>Hasta</small>
-                            <h5 class="text-white mb-0">6</h5>
+                            <h5 class="text-white mb-0">5</h5>
                             <small>personas</small>
                         </div>
                         <div class="text-center mx-auto">
