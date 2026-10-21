@@ -157,3 +157,28 @@ document.getElementById("verMas").addEventListener("click", () => {
   pagina++;
   mostrarPosts();
 });
+
+//// video house tour////
+function abrirVideo(videoPath) {
+
+    const modal = document.getElementById('videoModal');
+    const video = document.getElementById('houseVideo');
+    const source = document.getElementById('videoSource');
+
+    source.src = videoPath;
+
+    video.load();
+    video.play();
+
+    modal.style.display = 'flex';
+}
+
+function cerrarVideo() {
+
+    const video = document.getElementById('houseVideo');
+
+    video.pause();
+    video.currentTime = 0;
+
+    document.getElementById('videoModal').style.display = 'none';
+}
