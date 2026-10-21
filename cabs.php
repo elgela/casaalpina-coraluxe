@@ -210,8 +210,10 @@
                             ventanales y puertas-balcón vidriadas, que le otorgan una gran luminosidad interior.
                             Cochera individual adjunta, con parrilla individual, deck de madera con mesa, sillas y
                             sombrilla con vista a los jardines del predio.</p>
-                        <a href="img/cabs/cab1/house_tour/tour_del_pinar.mp4" target="_blank"
-                            rel="noopener noreferrer" class="btn btn-primary btn-success w-100 py-2">HOUSE TOUR</a>
+                        <a href="#" class="btn btn-primary btn-success w-100 py-2"
+                            onclick="abrirVideo('img/cabs/cab1/house_tour/tour_del_pinar.mp4'); return false;">
+                            HOUSE TOUR
+                        </a>
                     </div>
                 </div>
             </div>
@@ -465,8 +467,10 @@
 
                             Deck techado de madera, con mesa, sillas y vista panorámica a los jardines del predio.
                             Cochera techada individual y adjunta a la cabaña. Parrilla individual.</p>
-                        <a href="img/cabs/cab2/house_tour/tour_del_solar.mp4" target="_blank"
-                            rel="noopener noreferrer" class="btn btn-primary btn-success w-100 py-2">HOUSE TOUR</a>
+                        <a href="#" class="btn btn-primary btn-success w-100 py-2"
+                            onclick="abrirVideo('img/cabs/cab2/house_tour/tour_del_solar.mp4'); return false;">
+                            HOUSE TOUR
+                        </a>
                     </div>
                 </div>
             </div>
@@ -734,8 +738,10 @@
 
                             Cochera individual y adjunta, protegida por la frondosa copa de dos acacias. Parrilla
                             individual.</p>
-                        <a href="img/cabs/cab3/house_tour/tour_del_puente.mp4" target="_blank"
-                            rel="noopener noreferrer" class="btn btn-primary btn-success w-100 py-2">HOUSE TOUR</a>
+                        <a href="#" class="btn btn-primary btn-success w-100 py-2"
+                            onclick="abrirVideo('img/cabs/cab3/house_tour/tour_del_puente.mp4'); return false;">
+                            HOUSE TOUR
+                        </a>
                     </div>
                 </div>
             </div>
@@ -999,8 +1005,10 @@
 
                             Tiene cochera adjunta techada e individual, y parrilla techada familiar, con amplia
                             mesada.</p>
-                        <a href="img/cabs/cab4/house_tour/tour_casagrande.mp4" target="_blank"
-                            rel="noopener noreferrer" class="btn btn-primary btn-success w-100 py-2">HOUSE TOUR</a>
+                        <a href="#" class="btn btn-primary btn-success w-100 py-2"
+                            onclick="abrirVideo('img/cabs/cab4/house_tour/tour_casagrande.mp4'); return false;">
+                            HOUSE TOUR
+                        </a>
                     </div>
                 </div>
             </div>
@@ -1073,5 +1081,15 @@
     </div>
 </div>
 <!-- Cabañas End -->
+
+<div id="videoModal" class="video-modal">
+
+    <span class="cerrar" onclick="cerrarVideo()">✕</span>
+
+    <video id="houseVideo" controls>
+        <source id="videoSource" src="" type="video/mp4">
+    </video>
+
+</div>
 
 <?php include 'includes/footer.php'; ?>
