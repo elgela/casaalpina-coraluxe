@@ -18,10 +18,10 @@
                             <h5 class="text-white mb-0">4</h5>
                             <small>personas</small>
                         </div>
-                        <div class="text-center mx-auto">
+                        <!-- <div class="text-center mx-auto">
                             <img src="img/logos/radar.png" alt="logo de radar">
                             <p class="small mb-0">DirecTV</p>
-                        </div>
+                        </div> -->
                         <div class="text-center mx-auto">
                             <img src="img/logos/tv-ancha.png" alt="tv led">
                             <p class="small mb-0">TV Led 50"</p>
@@ -41,7 +41,7 @@
                         </div>
                         <div class="text-center mx-auto">
                             <img src="img/logos/sofa-cama.png" alt="sofa cama">
-                            <p class="small mb-0">Sofa cama 1 plaza con cama debajo</p>
+                            <p class="small mb-0">Sofá cama 1 plaza con cama debajo</p>
                         </div>
 
                         <div class="text-center mx-auto">
@@ -228,10 +228,10 @@
                             <h5 class="text-white mb-0">4</h5>
                             <small>personas</small>
                         </div>
-                        <div class="text-center mx-auto">
+                        <!-- <div class="text-center mx-auto">
                             <img src="img/logos/radar.png" alt="logo de radar">
                             <p class="small mb-0">DirecTV</p>
-                        </div>
+                        </div> -->
                         <div class="text-center mx-auto">
                             <img src="img/logos/tv-ancha.png" alt="tv led">
                             <p class="small mb-0">TV Led 50"</p>
@@ -250,7 +250,7 @@
                         </div>
                         <div class="text-center mx-auto">
                             <img src="img/logos/sofa-cama.png" alt="sofa cama">
-                            <p class="small mb-0">Sofa cama 1 plaza con cama debajo</p>
+                            <p class="small mb-0">Sofá cama 1 plaza con cama debajo</p>
                         </div>
 
                         <div class="text-center mx-auto">
@@ -460,9 +460,9 @@
                         </div>
                         <label class="h5 d-inline-block">Del Solar</label>
                         <p>Hermosa construcción de dos plantas. En la
-                            planta alta tiene un amplio dormitorio, donde se ubica una cama sommier de 2 plazas.
+                            planta alta tiene un amplio dormitorio donde se ubica una cama sommier de 2 plazas.
 
-                            En la planta baja : Sala de estar, donde se ubican un sofacama de una plaza y otra cama
+                            En la planta baja : Sala de Estar donde se ubican un sofacama de una plaza y otra cama
                             desplazable de una plaza. Comedor diario, cocina y baño completo.
 
                             Deck techado de madera, con mesa, sillas y vista panorámica a los jardines del predio.
@@ -474,73 +474,6 @@
                     </div>
                 </div>
             </div>
-            <!-- <div class="col-lg-6 col-xl-4 wow fadeIn" data-wow-delay="0.3s">
-                    <div class="room-item bg-white rounded d-flex h-100 p-4">
-                        <div class="bg-light rounded overflow-hidden flex-shrink-0 d-flex flex-column justify-content-between text-center pb-4 me-3"
-                            style="width: 80px">
-                            <div class="btn-success text-white py-3">
-                                <h5 class="text-white mb-0">$100</h5>
-                                <small>Per Night</small>
-                            </div>
-                            <div class="text-center mx-auto">
-                                <img src="img/logos/radar.png" alt="logo de radar">
-                                <p class="small mb-0">DirecTV</p>
-                            </div>
-                            <div class="text-center mx-auto">
-                                <img src="img/logos/tv-ancha.png" alt="tv led">
-                                <p class="small mb-0">TV Led 50"</p>
-                            </div>
-                            <div class="text-center mx-auto">
-                                <img src="img/logos/microondas.png" class="text-primary" width="20px"
-                                    alt="logo microondas">
-                                <p class="small mb-0">Microondas</p>
-                            </div>
-                            <div class="text-center mx-auto">
-                                <i class="fa fa-shower text-primary" aria-hidden="true"></i>
-                                <p class="small mb-0">Ducha presurizada</p>
-                            </div>
-                            <div class="text-center mx-auto">
-                                <img src="img/logos/cama-matrimonial.png" alt="logo cama 2 plazas">
-                                <p class="small mb-0">Sommier a resortes 2 1/2 plazas</p>
-                            </div>
-                            <div class="text-center mx-auto">
-                                <img src="img/logos/sofa-cama.png" alt="sofa cama">
-                                <p class="small mb-0">Sofa cama 1 plaza con cama debajo</p>
-                            </div>
-
-                            <div class="text-center mx-auto">
-                                <img src="img/logos/chimenea.png" alt="hogar a leña">
-                                <p class="small mb-0">Hogar a leña</p>
-                            </div>
-                            <div class="text-center mx-auto">
-                                <img src="img/logos/acondicionador-de-aire.png" alt="aire acondicionado">
-                                <p class="small mb-0">AA</p>
-                            </div>
-                            <div class="text-center mx-auto">
-                                <i class="fa fa-wifi text-primary"></i>
-                                <p class="small mb-0">Wifi</p>
-                            </div>
-                        </div>
-                        <div class="room-detail">
-                            <div class="position-relative rounded overflow-hidden mb-3">
-                                <img class="img-fluid w-100" src="img/cabs/cab2/cab2-frente.webp"
-                                    alt="cabaña del solar">
-                            </div>
-                            <label class="h5 d-inline-block">Del solar</label>
-                            <p>Hermosa construcción de dos plantas, con capacidad para alojar hasta 5 personas. En la
-                                planta alta tiene un amplio dormitorio, donde se ubican una cama sommiers de 2 plazas y
-                                media y una cama de una plaza.
-
-                                En la planta baja : Sala de Estar, donde se ubican un sofacama de una plaza y otra cama
-                                desplazable de una plaza. Comedor diario, cocina y baño completo.
-
-                                Deck techado de madera, con mesa, sillas y vista panorámica a los jardines del predio.
-                                Cochera techada individual y adjunta a la cabaña. Parrilla individual.</p>
-                            <a href="https://wa.me/2494549919?text=Hola, %20quiero%20saber%20disponibilidad%20para%20los%20días%20"
-                                target="_blank" class="btn btn-primary btn-success w-100 py-2">Consulte fecha</a>
-                        </div>
-                    </div>
-                </div> -->
 
             <!-- Del Puente -->
             <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
@@ -552,10 +485,10 @@
                             <h5 class="text-white mb-0">2</h5>
                             <small>personas</small>
                         </div>
-                        <div class="text-center mx-auto">
+                        <!-- <div class="text-center mx-auto">
                             <img src="img/logos/radar.png" alt="logo de radar">
                             <p class="small mb-0">DirecTV</p>
-                        </div>
+                        </div> -->
                         <div class="text-center mx-auto">
                             <img src="img/logos/tv-ancha.png" alt="tv led">
                             <p class="small mb-0">TV Led 32"</p>
@@ -733,7 +666,7 @@
                             pareja con bebé...
 
                             Posee 38 mts2 de superficie habitable, con todas sus instalaciones en planta baja. Con
-                            un hermoso Deck techado, demadera, con un muy pintorescopuente de madera exclusivo para
+                            un hermoso Deck techado, de madera, con un muy pintoresco puente de madera exclusivo para
                             la cabaña, con rosales en su pérgola..
 
                             Cochera individual y adjunta, protegida por la frondosa copa de dos acacias. Parrilla
@@ -746,68 +679,6 @@
                 </div>
             </div>
 
-            <!-- <div class="col-lg-6 col-xl-4 wow fadeIn" data-wow-delay="0.5s">
-                    <div class="room-item bg-white rounded d-flex h-100 p-4">
-                        <div class="bg-light rounded overflow-hidden flex-shrink-0 d-flex flex-column justify-content-between text-center pb-4 me-3"
-                            style="width: 80px">
-                            <div class="btn-success text-white py-3">
-                                <h5 class="text-white mb-0">$100</h5>
-                                <small>Per Night</small>
-                            </div>
-                            <div class="text-center mx-auto">
-                                <img src="img/logos/radar.png" alt="logo de radar">
-                                <p class="small mb-0">DirecTV</p>
-                            </div>
-                            <div class="text-center mx-auto">
-                                <img src="img/logos/tv-ancha.png" alt="tv led">
-                                <p class="small mb-0">TV Led 32"</p>
-                            </div>
-                            <div class="text-center mx-auto">
-                                <img src="img/logos/microondas.png" class="text-primary" width="20px"
-                                    alt="logo microondas">
-                                <p class="small mb-0">Microondas</p>
-                            </div>
-                            <div class="text-center mx-auto">
-                                <i class="fa fa-shower text-primary" aria-hidden="true"></i>
-                                <p class="small mb-0">Ducha presurizada</p>
-                            </div>
-                            <div class="text-center mx-auto">
-                                <img src="img/logos/cama-matrimonial.png" alt="logo cama 2 plazas">
-                                <p class="small mb-0">Sommier 2 plazas</p>
-                            </div>
-                            <div class="text-center mx-auto">
-                                <i class="fa fa-circle text-primary"></i>
-                                <p class="small mb-0">Salamandra a leña</p>
-                            </div>
-                            <div class="text-center mx-auto">
-                                <img src="img/logos/acondicionador-de-aire.png" alt="aire acondicionado">
-                                <p class="small mb-0">AA</p>
-                            </div>
-                            <div class="text-center mx-auto">
-                                <i class="fa fa-wifi text-primary"></i>
-                                <p class="small mb-0">Wifi</p>
-                            </div>
-                        </div>
-                        <div class="room-detail">
-                            <div class="position-relative rounded overflow-hidden mb-3">
-                                <img class="img-fluid w-100" src="img/cabs/cab3/cab3_frontal.webp"
-                                    alt="cabaña del puente">
-                            </div>
-                            <label class="h5 d-inline-block">Del Puente</label>
-                            <p>Una espléndida y moderna construcción, monoambiente, ideal para 2 personas, o bien para
-                                pareja con bebé...
-
-                                Posee 38 mts2 de superficie habitable, con todas sus instalaciones en planta baja. Con
-                                un hermoso Deck techado, demadera, con un muy pintorescopuente de madera exclusivo para
-                                la cabaña, con rosales en su pérgola..
-
-                                Cochera individual y adjunta, protegida por la frondosa copa de dos acacias. Parrilla
-                                individual.</p>
-                            <a href="https://wa.me/2494549919?text=Hola, %20quiero%20saber%20disponibilidad%20para%20los%20días%20"
-                                target="_blank" class="btn btn-primary btn-success w-100 py-2">Consulte fecha</a>
-                        </div>
-                    </div>
-                </div> -->
             <!-- Casagrande -->
             <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
                 <div class="room-item bg-white rounded d-flex h-100 p-4">
@@ -818,10 +689,10 @@
                             <h5 class="text-white mb-0">5</h5>
                             <small>personas</small>
                         </div>
-                        <div class="text-center mx-auto">
+                        <!-- <div class="text-center mx-auto">
                             <img src="img/logos/radar.png" alt="logo de radar">
                             <p class="small mb-0">DirecTV</p>
-                        </div>
+                        </div> -->
                         <div class="text-center mx-auto">
                             <img src="img/logos/tv-ancha.png" alt="tv led">
                             <p class="small mb-0">TV Led 32"</p>
@@ -994,8 +865,7 @@
                         </div>
 
                         <label class="h5 d-inline-block">Casagrande</label>
-                        <p>Posee dos plantas, ideal para un grupo
-                            familiar grande o para dos familias. Es una magnífica construcción de estilo alpino, con
+                        <p>Posee dos plantas, ideal para un grupo familiar grande o para dos familias. Es una magnífica construcción de estilo alpino, con
                             103 mts2 de superficie habitable, y con finas maderas en su interior.
 
                             Tiene dos dormitorios de gran categoría en su planta alta. En planta baja : Sala de
