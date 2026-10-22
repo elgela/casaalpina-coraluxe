@@ -92,7 +92,7 @@
                         </div>
                     </div>
                     <div class="nav-item dropdown promos">
-                        <a href="blog.php" class="nav-link <?=  $current == 'blog.php' ? 'active' : '' ?> ">Blog</a>
+                        <a href="blog.php" class="nav-link <?=  $current == 'blog.php' ? 'active' : '' ?> ">Promos</a>
                         <!-- <div class="dropdown-menu m-0">
                             <a href="#blog" class="dropdown-item">Blog Post</a>
                         </div> -->
