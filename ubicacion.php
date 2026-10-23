@@ -12,8 +12,8 @@
         <!-- Columna derecha: dirección + texto -->
         <div class="col-lg-6 col-12 address font-body">
             <h3>CasaAlpina</h3>
-            <p><strong>Icalma 2904</strong></p>
             <p>Un lugar único para disfrutar la naturaleza y descansar</p>
+            <p><strong>Icalma 2904</strong></p>
             <label><span class="fw-bold"><i class="bi bi-whatsapp"></i> 249 454-9919</span></label>
             <!-- <div class="col-lg-6 address"> -->
                 <h2 class="mt-4">Servicios e Instalaciones</h2>
@@ -21,7 +21,7 @@
                     <li class="text-start"><span class="fw-bold">Capacidad y Unidades: </span>4 cabañas independientes de reciente construcción.</li>
                     <li class="text-start"><span class="fw-bold">Equipamiento interior: </span>Cocina completa, aire acondicionado frío/calor, TV LED, ropa de cama y elementos de confort.</li>
                     <li class="text-start"><span class="fw-bold">Áreas comunes y exteriores: </span>Piscina al aire libre, parque arbolado, sector de parrilla y espacio verde propio por cabaña.</li>
-                    <li class="text-start"><span class="fw-bold">Servicios incluídos: </span>Desayuno, Wi-Fi y estacionamiento sin costo.</li>
+                    <li class="text-start"><span class="fw-bold">Servicios incluídos: </span>Desayuno, Wi-Fi y estacionamiento.</li>
                     <li class="text-start"><span class="fw-bold">Mascotas: </span>Se aceptan mascotas.</li>
                 </ul>
             </div>
