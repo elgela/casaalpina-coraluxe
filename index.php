@@ -70,8 +70,8 @@
     <div class="container-fluid p-0">
         <nav class="navbar navbar-expand-lg navbar-dark px-lg-5">
             <a href="index.php" class="navbar-brand ms-4 ms-lg-0">
-                <img src="img/logos/logo_casaalpina-nobg.webp" alt="logo CasaAlpina"
-                    style="width: 110px;margin-left: 20%;">
+                <img src="img/logos/logoCasaAlpina_sin_texto.png" alt="logo CasaAlpina"
+                    style="width: 90px;margin-left: 25%;">
                 <h1 class="mb-0 text-success">CasaAlpina</h1>
             </a>
             <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse"
@@ -193,8 +193,8 @@
                 </div>
                 <div class="col-lg-5 wow fadeIn" data-wow-delay="0.1s" style="min-height: 300px;">
                     <div class="position-relative h-100">
-                        <img class="img-fluid rounded position-absolute w-100 h-75 mt-5" src="img/logos/logo_casaalpina-nobg.webp"
-                            style="object-fit: cover;" alt="logo de CasaAlpina">
+                        <img class="img-fluid rounded position-absolute w-100 h-75 mt-5" src="img/logos/logoCasaAlpina_sin_texto.png"
+                            style="object-fit: contain;" alt="logo de CasaAlpina">
                     </div>
                 </div>
             </div>

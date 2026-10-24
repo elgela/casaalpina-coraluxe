@@ -159,6 +159,10 @@ a.btn_blog {
     background: rgba(14, 42, 74, .5);
 }
 
+.navbar h1 {
+    color: rgb(101, 153, 86) !important;
+}
+
 .navbar .navbar-nav .nav-link {
     margin-right: 25px;
     padding: 40px 0;
@@ -692,7 +696,7 @@ a.btn_blog {
 
 /*** Ubicacion ***/
 .ubicacion .row {
-    margin-top: 150px;
+    margin-top: 160px;
 }
 
 .address {
