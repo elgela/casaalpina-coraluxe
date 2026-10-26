@@ -106,13 +106,13 @@
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <div class="navbar-nav mx-auto p-4 p-lg-0">
                     <a href="index.php" class="nav-item nav-link <?= $current == 'index.php' ? 'active' : '' ?>">Inicio</a>
-                    <div class="nav-item dropdown">
-                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Cabañas</a>
-                        <div class="dropdown-menu m-0">
+                    <!-- <div class="nav-item dropdown"> -->
+                        <a href="cabs.php" class="nav-item nav-link <?= $current == 'cabs.php' ? 'active' : '' ?>">Cabañas</a>
+                        <!-- <div class="dropdown-menu m-0">
                             <a href="cabs.php" class="dropdown-item">Grid <i class="bi bi-grid"></i></a>
                             <a href="#detalles" class="dropdown-item">Detalles</a>
-                        </div>
-                    </div>
+                        </div> -->
+                    <!-- </div> -->
                     <div class="nav-item dropdown promos">
                         <a href="blog.php" class="nav-link">Promos</a>
                         <!-- <div class="dropdown-menu m-0">
