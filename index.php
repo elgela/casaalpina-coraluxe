@@ -107,8 +107,8 @@
                 <div class="navbar-nav mx-auto p-4 p-lg-0">
                     <a href="index.php" class="nav-item nav-link <?= $current == 'index.php' ? 'active' : '' ?>">Inicio</a>
                     <!-- <div class="nav-item dropdown"> -->
-                        <a href="cabs.php" class="nav-item nav-link <?= $current == 'cabs.php' ? 'active' : '' ?>">Cabañas</a>
-                        <!-- <div class="dropdown-menu m-0">
+                    <a href="cabs.php" class="nav-item nav-link <?= $current == 'cabs.php' ? 'active' : '' ?>">Cabañas</a>
+                    <!-- <div class="dropdown-menu m-0">
                             <a href="cabs.php" class="dropdown-item">Grid <i class="bi bi-grid"></i></a>
                             <a href="#detalles" class="dropdown-item">Detalles</a>
                         </div> -->
@@ -509,29 +509,40 @@
 
     <script>
         window.addEventListener("load", () => {
+
             const splash = document.getElementById("splash");
 
-            // Detectar si está en modo standalone (PWA instalada)
-            const isStandalone = window.matchMedia('(display-mode: standalone)').matches ||
+            // Detectar si está ejecutándose como PWA
+            const isStandalone =
+                window.matchMedia('(display-mode: standalone)').matches ||
                 window.navigator.standalone === true;
 
-            if (isStandalone) {
-                // Mostrar splash con animación
+            // Mostrar splash solo una vez por apertura de la app
+            if (isStandalone && !sessionStorage.getItem("splashShown")) {
+
+                sessionStorage.setItem("splashShown", "true");
+
                 splash.style.display = "flex";
+
                 setTimeout(() => {
                     splash.style.opacity = "0";
                     splash.style.transition = "opacity 1s";
+
                     setTimeout(() => {
                         splash.style.display = "none";
                     }, 1000);
-                }, 5000); // se oculta a los 5 segundos
+
+                }, 5000);
+
             } else {
-                // Si está en navegador (ej: XAMPP), ocultar splash directamente
+
                 splash.style.display = "none";
+
             }
+
         });
     </script>
-
+    
     <!-- Back to Top -->
     <a href="#" class="btn btn-success btn-lg-square back-to-top" title="Ir arriba"><i class="bi bi-arrow-up"></i></a>
 
