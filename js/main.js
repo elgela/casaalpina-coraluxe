@@ -98,7 +98,7 @@ window.onload = function () {
     setTimeout(function () {
         var myModal = new bootstrap.Modal(document.getElementById('welcomeModal'));
         myModal.show();
-    }, 6000); // 1000 ms = 1 segundo
+    }, 5000); // 1000 ms = 1 segundo
 };
 
 ///////////////// paginacion //////////////
@@ -183,21 +183,3 @@ function cerrarVideo() {
     document.getElementById('videoModal').style.display = 'none';
 }
 
-// Detectar si la PWA está en modo standalone
-const isStandalone = window.matchMedia('(display-mode: standalone)').matches 
-                  || window.navigator.standalone === true;
-
-// Mostrar splash solo en la app
-if (isStandalone) {
-  document.getElementById("splash").style.display = "flex";
-  setTimeout(() => {
-    document.getElementById("splash").style.opacity = "0";
-    document.getElementById("splash").style.transition = "opacity 1s";
-    setTimeout(() => {
-      document.getElementById("splash").style.display = "none";
-    }, 1000);
-  }, 5000);
-} else {
-  // Si está en navegador, ocultar splash directamente
-  document.getElementById("splash").style.display = "none";
-}
