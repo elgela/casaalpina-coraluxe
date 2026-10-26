@@ -499,13 +499,13 @@
     </div>
     <!-- Footer End -->
 
-    <script>
+    <!-- <script>
         window.addEventListener("load", () => {
             setTimeout(() => {
                 document.getElementById("splash").style.display = "none";
             }, 5000); // se oculta a los 5 segundos
         });
-    </script>
+    </script> -->
 
     <script>
         window.addEventListener("load", () => {
