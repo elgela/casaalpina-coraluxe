@@ -3,7 +3,7 @@
 <!-- Cabañas Start -->
 <div id="cabanias_grid" class="container-fluid py-6">
     <div class="container">
-        <div class="text-center mx-auto wow fadeIn" data-wow-delay="0.1s" style="max-width: 600px;">
+        <div class="text-center mx-auto wow fadeIn" data-wow-delay="0.1s" style="max-width: 600px;margin-top: 30px;">
             <p class="fs-4 font-dancing-script text-success mb-0">Nuestras Cabañas</p>
             <h1 class="display-4 mb-5">Cabañas rodeadas de naturaleza</h1>
         </div>
