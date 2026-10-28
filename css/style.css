@@ -19,58 +19,36 @@
     stroke-dashoffset: 1200;
 }
 
-/* Animaciones secuenciales */
-#path5 {
-    animation: draw 2s forwards , fillWhite 1s forwards 2s;
+/* Sol late como un corazón */
+#sol {
+  animation: latido 2s infinite;
+}
+@keyframes latido {
+  0%   { transform: scale(1); }
+  25%  { transform: scale(1.1); }
+  50%  { transform: scale(1); }
+  75%  { transform: scale(1.1); }
+  100% { transform: scale(1); }
 }
 
-#path4 {
-    animation: draw 2s forwards 0.5s, fillOrange 1s forwards 2.5s;
+/* Colinas con efecto parallax */
+#colinas {
+  animation: latido 2s infinite;
+}
+@keyframes parallax {
+  from { transform: translateX(-10px); }
+  to   { transform: translateX(10px); }
 }
 
-#path3 {
-    animation: draw 2s forwards 1s, fillGreenLight 1s forwards 3s;
+/* Montañas entran desde abajo */
+#montanas {
+  opacity: 0;
+  animation: slideIn 3s ease forwards;
 }
-
-#path2 {
-    animation: draw 2s forwards 1.5s, fillGreenDark 1s forwards 3.5s;
+@keyframes slideIn {
+  from { transform: translateY(50px); opacity: 0; }
+  to   { transform: translateY(0); opacity: 1; }
 }
-
-@keyframes draw {
-    to {
-        stroke-dashoffset: 0;
-    }
-}
-
-/* Animación para rellenar con color */
-@keyframes fillColor {
-    to {
-        fill: currentColor;
-    }
-}
-
-/* Animaciones de relleno */
-@keyframes fillWhite { to { fill: #fefefe; } }
-@keyframes fillOrange { to { fill: #f7932a; } }
-@keyframes fillGreenLight { to { fill: #649854; } }
-@keyframes fillGreenDark { to { fill: #0d372a; } }
-
-/* Colores finales */
-/* #path5 {
-    color: #fefefe;
-}
-
-#path4 {
-    color: #f7932a;
-}
-
-#path3 {
-    color: #649854;
-}
-
-#path2 {
-    color: #0d372a;
-} */
 
 
 /********** Template CSS **********/
@@ -234,9 +212,9 @@ a.btn_blog {
     background: rgba(14, 42, 74, .5);
 }
 
-.navbar h1 {
-    color: rgb(101, 153, 86) !important;
-}
+/* .navbar h1 {
+    color: rgb(253, 253, 252) !important;
+} */
 
 .navbar .navbar-nav .nav-link {
     margin-right: 25px;
