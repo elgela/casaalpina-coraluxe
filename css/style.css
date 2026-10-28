@@ -750,10 +750,6 @@ a.btn_blog {
 }
 
 /*** Ubicacion ***/
-.ubicacion .row {
-    margin-top: 160px;
-}
-
 .address {
     margin-top: 20px;
     /* en móviles, separa del mapa */
