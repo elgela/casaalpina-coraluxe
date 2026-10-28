@@ -1,6 +1,6 @@
 <?php include 'includes/header.php' ?>
 <div class="container ubicacion">
-    <div class="row">
+    <div class="row" style="margin-top: 180px;">
         <!-- Columna izquierda: mapa -->
         <div class="col-lg-6 col-12">
             <iframe class="w-100" style="object-fit: cover;"
