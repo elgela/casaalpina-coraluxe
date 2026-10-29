@@ -19,8 +19,8 @@
         <div class="col-lg-6 col-12 address font-body">
             <h3>CasaAlpina</h3>
             <p>Un lugar único para disfrutar la naturaleza y descansar</p>
-            <p><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="28" height="28"><path d="M12 2C7.589 2 4 5.589 4 9.995C3.971 16.44 11.696 21.784 12 22c0 0 8.029-5.56 8-12c0-4.411-3.589-8-8-8zm0 12c-2.21 0-4-1.79-4-4s1.79-4 4-4s4 1.79 4 4s-1.79 4-4 4z" fill="#e11d48"/></svg><strong> Icalma 2904</strong></p>
-            <label><span class="fw-bold"><i class="bi bi-whatsapp text-success"></i> 249 454-9919</span></label>
+            <p><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="28" height="28"><path d="M12 2C7.589 2 4 5.589 4 9.995C3.971 16.44 11.696 21.784 12 22c0 0 8.029-5.56 8-12c0-4.411-3.589-8-8-8zm0 12c-2.21 0-4-1.79-4-4s1.79-4 4-4s4 1.79 4 4s-1.79 4-4 4z" fill="#e11d48"/></svg><strong>&nbsp;Icalma 2904</strong></p>
+            <label><span class="fw-bold"><i class="bi bi-whatsapp text-success"></i>&nbsp;249 454-9919</span></label>
             <!-- <div class="col-lg-6 address"> -->
             <p class="mt-3">Ubicadas en un entorno privilegiado de las sierras de Tandil, las cabañas de CasaAlpina combinan naturaleza, tranquilidad y fácil acceso a los principales atractivos de la ciudad. Nuestra ubicación permite disfrutar del descanso rodeado de paisajes serranos, sin alejarse de los servicios, restaurantes y puntos turísticos más importantes.</p>
             <p>En el mapa podrás encontrar nuestra ubicación exacta y planificar tu recorrido de la manera más cómoda. Tanto si llegas en vehículo particular como si visitas Tandil por primera vez, Google Maps te indicará la ruta más rápida para llegar a CasaAlpina y comenzar a disfrutar de tu estadía.</p>
