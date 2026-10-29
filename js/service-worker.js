@@ -3,11 +3,11 @@
 const CACHE_NAME = "casaalpina-cache-v1";
 const urlsToCache = [
     "./",
-    "./index.html",
+    "./index.php",
     "./styles.css",
     "./script.js",
-    "./images/icons/icon-192.png",
-    "./images/icons/icon-512.png"
+    "./img/icons/favicon_io/android-chrome-192x192.png",
+    "./img/icons/favicon_io/android-chrome-512x512.png"
 ];
 
 // Instalación: cachea los recursos iniciales
