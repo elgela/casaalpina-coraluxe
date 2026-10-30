@@ -811,6 +811,22 @@
                 audio.volume = 0.2;
                 audio.play().catch(() => {});
 
+                // Comenzar a bajar el volumen a los 4 segundos
+                setTimeout(() => {
+
+                    const fadeAudio = setInterval(() => {
+
+                        if (audio.volume > 0.03) {
+                            audio.volume -= 0.01;
+                        } else {
+                            audio.volume = 0;
+                            clearInterval(fadeAudio);
+                        }
+
+                    }, 50);
+
+                }, 4000);
+
                 setTimeout(() => {
 
                     splash.style.opacity = "0";
