@@ -65,7 +65,7 @@
     <!-- Spinner End -->
 
     <!-- Splash Start -->
-    <div id="splash">
+    <div id="splash" class="logo-wrapper">
         <svg viewBox="0 0 400 240" class="logo" width="280" height="280">
             <!-- Aquí va el trazado del logo CasaAlpina en formato SVG -->
             <g id="colinas">
@@ -379,6 +379,7 @@
                     fill="#7F7B78" transform="translate(203,126)" />
             </g>
         </svg>
+        <div class="shine"></div>
     </div>
     <!-- Splash End -->
 
