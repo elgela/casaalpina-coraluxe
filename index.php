@@ -66,7 +66,7 @@
 
     <!-- Splash Start -->
     <div id="splash">
-        <svg viewBox="0 0 400 240" class="logo" width="180" height="180">
+        <svg viewBox="0 0 400 240" class="logo" width="280" height="280">
             <!-- Aquí va el trazado del logo CasaAlpina en formato SVG -->
             <g id="colinas">
                 <path
