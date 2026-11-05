@@ -8,8 +8,14 @@
     <meta content="Cuatro cabañas totalmente equipadas, independientes y de reciente construcción" name="description">
 
     <!-- Etiqueta canónica -->
-    <link rel="canonical" href="https://elgela.github.io/casaalpina-coraluxe/index.html" />
-
+    <?php
+    // Cada página declara su propia dirección. Si el sitio cambia de dominio, editar solo esta línea.
+    $dominio_sitio = 'https://casaalpina.turesponsive.com.ar';
+    $pagina_actual = basename($_SERVER['SCRIPT_NAME'] ?? 'index.php');
+    $url_canonica  = ($pagina_actual === 'index.php') ? $dominio_sitio . '/' : $dominio_sitio . '/' . $pagina_actual;
+    ?>
+    <link rel="canonical" href="<?= htmlspecialchars($url_canonica, ENT_QUOTES, 'UTF-8') ?>" />
+    
     <!-- Favicon -->
     <link href="img/icons/favicon_io/favicon.ico" rel="icon">
 
@@ -83,14 +89,14 @@
                 <div class="navbar-nav mx-auto p-4 p-lg-0">
                     <a href="index.php" class="nav-item nav-link <?= $current == 'index.php' ? 'active' : '' ?>">Inicio</a>
                     <!-- <div class="nav-item dropdown"> -->
-                        <a href="cabs.php" class="nav-item nav-link <?= $current == 'cabs.php' ? 'active' : '' ?>">Cabañas</a>
-                        <!-- <div class="dropdown-menu m-0">
+                    <a href="cabs.php" class="nav-item nav-link <?= $current == 'cabs.php' ? 'active' : '' ?>">Cabañas</a>
+                    <!-- <div class="dropdown-menu m-0">
                             <a href="cabs.php" class="dropdown-item">Grid <i class="bi bi-grid"></i></a>
                             <a href="#detalles" class="dropdown-item">Detalles</a>
                         </div> -->
                     <!-- </div> -->
                     <div class="nav-item dropdown promos">
-                        <a href="blog.php" class="nav-link <?=  $current == 'blog.php' ? 'active' : '' ?> ">Promos</a>
+                        <a href="blog.php" class="nav-link <?= $current == 'blog.php' ? 'active' : '' ?> ">Promos</a>
                         <!-- <div class="dropdown-menu m-0">
                             <a href="#blog" class="dropdown-item">Blog Post</a>
                         </div> -->

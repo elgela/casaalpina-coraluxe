@@ -8,8 +8,8 @@
     <meta content="Cuatro cabañas totalmente equipadas, independientes y de reciente construcción" name="description">
 
     <!-- Etiqueta canónica -->
-    <link rel="canonical" href="https://elgela.github.io/casaalpina-coraluxe/index.html" />
-
+    <link rel="canonical" href="https://casaalpina.turesponsive.com.ar/" />
+    
     <!-- Favicon -->
     <link href="img/icons/favicon_io/favicon.ico" rel="icon">
 
