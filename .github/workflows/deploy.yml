@@ -22,5 +22,5 @@ jobs:
           protocol: ftps
           security: strict
           local-dir: ./
-          server-dir: /public_html/casaalpina
-          
+          server-dir: /public_html/casaalpina/
+
