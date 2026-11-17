@@ -603,6 +603,15 @@ a.btn_blog {
     #welcomeModal .modal-body {
         padding: 0;
     }
+    
+    #welcomeModal .modal-body img {
+        border-radius: 30px !important;
+        padding: 1em !important;      
+    }
+
+    #welcomeModal .modal-body .btn-close {
+        margin: 30px !important;
+    }
 
     .modal-body .btn-close {
         filter: invert(1) grayscale(100%) brightness(200%);
