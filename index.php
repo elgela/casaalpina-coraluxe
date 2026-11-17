@@ -688,7 +688,7 @@
                 <div class="modal-body">
                     <!-- <p>Gracias por visitar nuestra página.</p> -->
                     <img src="img/promos/clientesVIP.webp" class="w-100" alt="clientes VIP promocion">
-                    <button type="button" class="btn-close position-absolute top-0 end-0 m-2 text-white" title="Cerrar"
+                    <button type="button" class="btn-close position-absolute top-0 end-0 text-white" title="Cerrar"
                         data-bs-dismiss="modal" aria-label="Cerrar"></button>
                 </div>
                 <!-- <div class="modal-footer">
