@@ -784,7 +784,7 @@
                                 title="Flaticon">www.flaticon.es'</a></div>
                     </div>
                     <div class="col-md-4 text-center text-md-center">
-                        <a href="https://docs.google.com/document/d/1mdAfqzZTkhW57SBu-obIbk3GAxxNLfOHAT34r29zqWc/edit?usp=drivesdk" target="_blank">Términos & condiciones</a>            
+                        <a href="https://docs.google.com/document/d/1mdAfqzZTkhW57SBu-obIbk3GAxxNLfOHAT34r29zqWc/edit?usp=drivesdk" target="_blank">Términos y condiciones & Política de privacidad</a>            
                     </div>
                     <div class="col-md-4 text-center text-md-end">
                         Designed By <a href="https://htmlcodex.com" target="_blank" rel="noopener noreferrer">HTML
