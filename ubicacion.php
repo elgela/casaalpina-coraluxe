@@ -32,7 +32,7 @@
             <li class="text-start"><span class="fw-bold">Equipamiento interior: </span>Cocina completa, aire acondicionado frío/calor, TV LED, ropa de cama y elementos de confort.</li>
             <li class="text-start"><span class="fw-bold">Áreas comunes y exteriores: </span>Piscina al aire libre, parque arbolado, sector de parrilla y espacio verde propio por cabaña.</li>
             <li class="text-start"><span class="fw-bold">Servicios incluídos: </span>Desayuno, Wi-Fi y estacionamiento.</li>
-            <li class="text-start"><span class="fw-bold">Mascotas: </span>Se aceptan mascotas.</li>
+            <li class="text-start"><span class="fw-bold">Se aceptan mascotas</span></li>
         </ul>
         <!-- </div> -->
     </div>
