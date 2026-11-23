@@ -109,22 +109,22 @@ let posts = [];
 
 // Cargar posts desde el archivo JSON
 fetch("posts.json")
-  .then(response => response.json())
-  .then(data => {
-    posts = data;
-    mostrarPosts();
-  });
+    .then(response => response.json())
+    .then(data => {
+        posts = data;
+        mostrarPosts();
+    });
 
 function mostrarPosts() {
-  const contenedor = document.getElementById("posts");
-  const inicio = pagina * postsPorPagina;
-  const fin = inicio + postsPorPagina;
-  const nuevosPosts = posts.slice(inicio, fin);
+    const contenedor = document.getElementById("posts");
+    const inicio = pagina * postsPorPagina;
+    const fin = inicio + postsPorPagina;
+    const nuevosPosts = posts.slice(inicio, fin);
 
-  nuevosPosts.forEach(post => {
-    const div = document.createElement("div");
-    div.classList.add("post");
-    div.innerHTML = `
+    nuevosPosts.forEach(post => {
+        const div = document.createElement("div");
+        div.classList.add("post");
+        div.innerHTML = `
                 <div class="col-12 col-md-12">
                     <div class="blog-item wow fadeInUp" data-wow-delay="0.3s">
                         <div class="blog-img">
@@ -146,16 +146,16 @@ function mostrarPosts() {
                 </div>
 
     `;
-    contenedor.appendChild(div);
-  });
+        contenedor.appendChild(div);
+    });
 
-  if (fin >= posts.length) {
-    document.getElementById("verMas").style.display = "none";
-  }
+    if (fin >= posts.length) {
+        document.getElementById("verMas").style.display = "none";
+    }
 }
 document.getElementById("verMas").addEventListener("click", () => {
-  pagina++;
-  mostrarPosts();
+    pagina++;
+    mostrarPosts();
 });
 
 //// video house tour////
@@ -183,3 +183,25 @@ function cerrarVideo() {
     document.getElementById('videoModal').style.display = 'none';
 }
 
+/// Animación de introducción de la fogata
+(function () {
+    var intro = document.getElementById('intro-fogata');
+    if (!intro) return;
+
+    // Mostrar una sola vez por visita
+    if (sessionStorage.getItem('introFogataVista')) {
+        intro.remove();
+        return;
+    }
+    sessionStorage.setItem('introFogataVista', '1');
+
+    // Sacarla del DOM cuando termina
+    setTimeout(function () {
+        intro.remove();
+    }, 3500);
+
+    // Permitir saltarla con un clic
+    intro.addEventListener('click', function () {
+        intro.remove();
+    });
+})();
