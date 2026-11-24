@@ -769,14 +769,14 @@
                                                 <div class="carousel-item">
                                                     <picture>
                                                         <!-- Imagen para moviles -->
-                                                        <source srcset="img/cabs/cab4/cab4-de_frente-movil.webp"
+                                                        <source srcset="img/cabs/cab4/cab4-cocina_entrada-movil.webp"
                                                             media="(max-width: 768px)" class="img-thumbnail">
                                                         <!-- Imagen para tablets -->
-                                                        <source srcset="img/cabs/cab4/cab4-de_frente.webp"
+                                                        <source srcset="img/cabs/cab4/cab4-cocina_entrada.webp"
                                                             media="(max-width: 1200px)" class="img-thumbnail">
                                                         <!-- Imagen para PC -->
-                                                        <img src="img/cabs/cab4/cab4-de_frente.webp"
-                                                            alt="Imagen vista frontal" class="img-fluid w-100">
+                                                        <img src="img/cabs/cab4/cab4-cocina_entrada.webp"
+                                                            alt="Imagen de entrar a cocina" class="img-fluid w-100">
                                                     </picture>
                                                 </div>
                                                 <div class="carousel-item">
@@ -844,6 +844,36 @@
                                                             media="(max-width: 1200px)" class="img-thumbnail">
                                                         <!-- Imagen para PC -->
                                                         <img src="img/cabs/cab4/cab4-hab_chica_puerta.webp"
+                                                            alt="Imagen de habitacion chica"
+                                                            class="img-fluid w-100">
+                                                    </picture>
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <picture>
+                                                        <!-- Imagen para moviles -->
+                                                        <source
+                                                            srcset="img/cabs/cab4/cab4-banio-movil.webp"
+                                                            media="(max-width: 768px)" class="img-thumbnail">
+                                                        <!-- Imagen para tablets -->
+                                                        <source srcset="img/cabs/cab4/cab4-banio.webp"
+                                                            media="(max-width: 1200px)" class="img-thumbnail">
+                                                        <!-- Imagen para PC -->
+                                                        <img src="img/cabs/cab4/cab4-banio.webp"
+                                                            alt="Imagen de habitacion chica"
+                                                            class="img-fluid w-100">
+                                                    </picture>
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <picture>
+                                                        <!-- Imagen para moviles -->
+                                                        <source
+                                                            srcset="img/cabs/cab4/cab4-cocina_fondo-movil.webp"
+                                                            media="(max-width: 768px)" class="img-thumbnail">
+                                                        <!-- Imagen para tablets -->
+                                                        <source srcset="img/cabs/cab4/cab4-cocina_fondo.webp"
+                                                            media="(max-width: 1200px)" class="img-thumbnail">
+                                                        <!-- Imagen para PC -->
+                                                        <img src="img/cabs/cab4/cab4-cocina_fondo.webp"
                                                             alt="Imagen de habitacion chica"
                                                             class="img-fluid w-100">
                                                     </picture>
