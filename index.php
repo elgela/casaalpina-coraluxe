@@ -491,7 +491,7 @@
         <div class="container">
             <div class="row g-5">
                 <div class="col-lg-7 wow fadeIn" data-wow-delay="0.3s">
-                    <p class="fs-4 font-dancing-script text-success mb-0">Bienvenidos</p>
+                    <p class="fs-4 font-dancing-script text-success mb-0 saludo">Bienvenidos</p>
                     <h1 class="display-4 mb-0">Cabañas CasaAlpina</h1>
                     <h3>Tandil, Bs. As.</h3>
                     <h6 class="mb-4">Cuatro cabañas totalmente equipadas, independientes y de reciente construcción...
