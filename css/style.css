@@ -310,7 +310,6 @@
     font-weight: 500;
     transition: all 0.5s ease;
     /* suaviza el cambio */
-
 }
 
 .btn-reserva:hover {
@@ -320,6 +319,18 @@
     /* se eleva un poco */
     box-shadow: 0 8px 15px rgba(0, 0, 0, 0.438);
     /* sombra */
+}
+
+@media (max-width: 991.98px) {
+    .btn-reserva-movil {
+        display: none;
+    }
+}
+
+@media (min-width: 991.98px) {
+    .btn-reserva-pc {
+        display: none;
+    }
 }
 
 .btn-square {
