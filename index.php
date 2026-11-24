@@ -55,26 +55,6 @@
 </head>
 
 <body>
-    <!-- Animación entrada Start -->
-    <div id="intro-fogata" aria-hidden="true">
-        <div class="intro-escena">
-            <img class="intro-logo" src="img/logos/logo_casaalpina-nobg.svg" alt="logo de CasaAlpina">
-            <div class="intro-humo">
-                <span></span><span></span><span></span>
-            </div>
-            <div class="intro-chispas">
-                <i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i>
-            </div>
-            <div class="intro-fuego">
-                <div class="llama llama-1"></div>
-                <div class="llama llama-2"></div>
-                <div class="llama llama-3"></div>
-                <div class="leños"></div>
-            </div>
-        </div>
-    </div>
-    <!-- Animación entrada End -->
-
     <!-- Spinner Start -->
     <div id="spinner"
         class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">

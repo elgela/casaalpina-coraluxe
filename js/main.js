@@ -183,25 +183,3 @@ function cerrarVideo() {
     document.getElementById('videoModal').style.display = 'none';
 }
 
-/// Animación de introducción de la fogata
-(function () {
-    var intro = document.getElementById('intro-fogata');
-    if (!intro) return;
-
-    // Mostrar una sola vez por visita
-    if (sessionStorage.getItem('introFogataVista')) {
-        intro.remove();
-        return;
-    }
-    sessionStorage.setItem('introFogataVista', '1');
-
-    // Sacarla del DOM cuando termina
-    setTimeout(function () {
-        intro.remove();
-    }, 3500);
-
-    // Permitir saltarla con un clic
-    intro.addEventListener('click', function () {
-        intro.remove();
-    });
-})();
