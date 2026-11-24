@@ -115,10 +115,9 @@
                     </div>
                     <a href="ubicacion.php" class="nav-item nav-link <?= $current == 'ubicacion.php' ? 'active' : '' ?>">Ubicación</a>
                 </div>
-                <a class="btn btn-primary btn-reserva d-none d-lg-flex btn-success"
-                    href="https://wa.me/2494549919?text=Hola, %20quiero%20hacer%20una%20reserva" target="_blank"
-                    rel="noopener noreferrer">Reservar &nbsp<i class="bi bi-whatsapp"
-                        style="font-size: 1.1rem;"></i></a>
+                <a class="btn btn-primary btn-reserva btn-success"
+                    href="https://reservas.casaalpina.com.ar/" target="_blank"
+                    rel="noopener noreferrer">Reserva Online</a>
             </div>
         </nav>
 
