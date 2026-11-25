@@ -355,19 +355,6 @@
                                                 <div class="carousel-item">
                                                     <picture>
                                                         <!-- Imagen para moviles -->
-                                                        <source srcset="img/cabs/cab2/cab2-cocina_bacha-movil.webp"
-                                                            media="(max-width: 768px)" class="img-thumbnail">
-                                                        <!-- Imagen para tablets -->
-                                                        <source srcset="img/cabs/cab2/cab2-cocina_bacha.webp"
-                                                            media="(max-width: 1200px)" class="img-thumbnail">
-                                                        <!-- Imagen para PC -->
-                                                        <img src="img/cabs/cab2/cab2-cocina_bacha.webp"
-                                                            alt="Imagen de la cocina" class="img-fluid w-100">
-                                                    </picture>
-                                                </div>
-                                                <div class="carousel-item">
-                                                    <picture>
-                                                        <!-- Imagen para moviles -->
                                                         <source srcset="img/cabs/cab2/cab2-deck-movil.webp"
                                                             media="(max-width: 768px)" class="img-thumbnail">
                                                         <!-- Imagen para tablets -->
@@ -394,27 +381,13 @@
                                                 <div class="carousel-item">
                                                     <picture>
                                                         <!-- Imagen para moviles -->
-                                                        <source
-                                                            srcset="img/cabs/cab2/cab2-comedor_ventana-movil.webp"
+                                                        <source srcset="img/cabs/cab2/cab2-banio-movil.webp"
                                                             media="(max-width: 768px)" class="img-thumbnail">
                                                         <!-- Imagen para tablets -->
-                                                        <source srcset="img/cabs/cab2/cab2-comedor_ventana.webp"
+                                                        <source srcset="img/cabs/cab2/cab2-banio.webp"
                                                             media="(max-width: 1200px)" class="img-thumbnail">
                                                         <!-- Imagen para PC -->
-                                                        <img src="img/cabs/cab2/cab2-comedor_ventana.webp"
-                                                            alt="Imagen del baño" class="img-fluid w-100">
-                                                    </picture>
-                                                </div>
-                                                <div class="carousel-item">
-                                                    <picture>
-                                                        <!-- Imagen para moviles -->
-                                                        <source srcset="img/cabs/cab2/cab2-deck2-movil.webp"
-                                                            media="(max-width: 768px)" class="img-thumbnail">
-                                                        <!-- Imagen para tablets -->
-                                                        <source srcset="img/cabs/cab2/cab2-deck2.webp"
-                                                            media="(max-width: 1200px)" class="img-thumbnail">
-                                                        <!-- Imagen para PC -->
-                                                        <img src="img/cabs/cab2/cab2-deck2.webp"
+                                                        <img src="img/cabs/cab2/cab2-banio.webp"
                                                             alt="Imagen del baño" class="img-fluid w-100">
                                                     </picture>
                                                 </div>
