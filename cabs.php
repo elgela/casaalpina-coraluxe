@@ -103,13 +103,13 @@
                                                 <div class="carousel-item">
                                                     <picture>
                                                         <!-- Imagen para moviles -->
-                                                        <source srcset="img/cabs/cab1/cab1_entrada-movil.webp"
+                                                        <source srcset="img/cabs/cab1/cab1_ventana_fondo-movil.webp"
                                                             media="(max-width: 768px)" class="img-thumbnail">
                                                         <!-- Imagen para tablets -->
-                                                        <source srcset="img/cabs/cab1/cab1_entrada.webp"
+                                                        <source srcset="img/cabs/cab1/cab1_ventana_fondo.webp"
                                                             media="(max-width: 1200px)" class="img-thumbnail">
                                                         <!-- Imagen para PC -->
-                                                        <img src="img/cabs/cab1/cab1_entrada.webp"
+                                                        <img src="img/cabs/cab1/cab1_ventana_fondo.webp"
                                                             alt="Imagen de entrada" class="img-fluid w-100">
                                                     </picture>
                                                 </div>
