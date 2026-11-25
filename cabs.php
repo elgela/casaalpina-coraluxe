@@ -140,18 +140,6 @@
                                                 </div>
                                                 <div class="carousel-item">
                                                     <picture>
-                                                        <source srcset="img/cabs/cab1/cab1_camas-movil.webp"
-                                                            media="(max-width: 768px)" class="img-thumbnail">
-                                                        <!-- Imagen para tablets -->
-                                                        <source srcset="img/cabs/cab1/cab1_camas.webp"
-                                                            media="(max-width: 1200px)" class="img-thumbnail">
-                                                        <!-- Imagen para PC -->
-                                                        <img src="img/cabs/cab1/cab1_camas.webp"
-                                                            alt="Imagen de camas" class="img-fluid w-100">
-                                                    </picture>
-                                                </div>
-                                                <div class="carousel-item">
-                                                    <picture>
                                                         <source srcset="img/cabs/cab1/cab1_cocina-movil.webp"
                                                             media="(max-width: 768px)" class="img-thumbnail">
                                                         <!-- Imagen para tablets -->
