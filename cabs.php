@@ -452,7 +452,7 @@
                         </div> -->
                         <div class="text-center mx-auto">
                             <img src="img/logos/tv-ancha.png" alt="tv led">
-                            <p class="small mb-0">TV Led 32"</p>
+                            <p class="small mb-0">TV Led 40"</p>
                         </div>
                         <div class="text-center mx-auto">
                             <img src="img/logos/horno-microondas.png" alt="logo microondas">
@@ -486,7 +486,7 @@
                             </div>
                             <picture>
                                 <!-- Imagen para moviles -->
-                                <source srcset="img/cabs/cab3/cab3_frontal.webp" media="(max-width: 768px)"
+                                <source srcset="img/cabs/cab3/cab3_frontal-movil.webp" media="(max-width: 768px)"
                                     class="img-thumbnail" data-bs-toggle="modal"
                                     data-bs-target="#carouselModalCab3">
                                 <!-- Imagen para tablets -->
@@ -513,13 +513,13 @@
                                                 <div class="carousel-item active">
                                                     <picture>
                                                         <!-- Imagen para moviles -->
-                                                        <source srcset="img/cabs/cab3/cab3_puente-movil.webp"
+                                                        <source srcset="img/cabs/cab3/cab3_cocina-movil.webp"
                                                             media="(max-width: 768px)" class="img-thumbnail">
                                                         <!-- Imagen para tablets -->
-                                                        <source srcset="img/cabs/cab3/cab3_puente.webp"
+                                                        <source srcset="img/cabs/cab3/cab3_cocina.webp"
                                                             media="(max-width: 1200px)" class="img-thumbnail">
                                                         <!-- Imagen para PC -->
-                                                        <img src="img/cabs/cab3/cab3_puente.webp"
+                                                        <img src="img/cabs/cab3/cab3_cocina.webp"
                                                             alt="Imagen principal de frente"
                                                             class="img-fluid w-100">
                                                     </picture>
@@ -542,14 +542,14 @@
                                                     <picture>
                                                         <!-- Imagen para moviles -->
                                                         <source
-                                                            srcset="img/cabs/cab3/cab3-vista_diagonal_desde_frente-movil.webp"
+                                                            srcset="img/cabs/cab3/cab3-vista_desde_frente-movil.webp"
                                                             media="(max-width: 768px)" class="img-thumbnail">
                                                         <!-- Imagen para tablets -->
                                                         <source
-                                                            srcset="img/cabs/cab3/cab3-vista_diagonal_desde_frente.webp"
+                                                            srcset="img/cabs/cab3/cab3-vista_desde_frente.webp"
                                                             media="(max-width: 1200px)" class="img-thumbnail">
                                                         <!-- Imagen para PC -->
-                                                        <img src="img/cabs/cab3/cab3-vista_diagonal_desde_frente.webp"
+                                                        <img src="img/cabs/cab3/cab3-vista_desde_frente.webp"
                                                             alt="Imagen de entrada" class="img-fluid w-100">
                                                     </picture>
                                                 </div>
@@ -570,13 +570,13 @@
                                                     <picture>
                                                         <!-- Imagen para moviles -->
                                                         <source
-                                                            srcset="img/cabs/cab3/cab3-entrada_desde_atras-movil.webp"
+                                                            srcset="img/cabs/cab3/cab3_comedor-movil.webp"
                                                             media="(max-width: 768px)" class="img-thumbnail">
                                                         <!-- Imagen para tablets -->
-                                                        <source srcset="img/cabs/cab3/cab3-entrada_desde_atras.webp"
+                                                        <source srcset="img/cabs/cab3/cab3_comedor.webp"
                                                             media="(max-width: 1200px)" class="img-thumbnail">
                                                         <!-- Imagen para PC -->
-                                                        <img src="img/cabs/cab3/cab3-entrada_desde_atras.webp"
+                                                        <img src="img/cabs/cab3/cab3_comedor.webp"
                                                             alt="Imagen de camas" class="img-fluid w-100">
                                                     </picture>
                                                 </div>
