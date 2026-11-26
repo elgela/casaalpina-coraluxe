@@ -437,7 +437,7 @@
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <picture>
-                        <source srcset="img/exterior/IMG_1423-movil.webp" media="(max-width: 768px)"
+                        <source srcset="img/exterior/IMG_2388-movil.webp" media="(max-width: 768px)"
                             alt="Camino y árboles">
                         <img class="w-100" src="img/exterior/IMG_2388.webp" alt="Camino y árboles">
                     </picture>
