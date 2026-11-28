@@ -127,8 +127,7 @@
                             <div class="col-10 col-md-8">
                                 <h1 class="display-1 text-white animated slideInDown" style="margin-top: 130px;">Escapate a un paraíso puro</h1>
                                 <p class="fs-3 mb-5 animated slideInDown">Tu refugio ideal en Tandil</p>
-                                <a href="exterior.html" class="btn btn-success py-3 px-4 animated slideInDown">Conocé
-                                    más</a>
+                                <a href="exterior.html" class="btn btn-success py-3 px-4 animated slideInDown">Imágenes</a>
                             </div>
                         </div>
                     </div>
@@ -144,8 +143,7 @@
                             <div class="col-10 col-md-8">
                                 <h1 class="display-1 text-white animated slideInDown" style="margin-top: 130px;">Pileta, solarium, yacuzzi</h1>
                                 <p class="fs-3 mb-5 animated slideInDown">En donde la calma te encuentra</p>
-                                <a href="pileta.html" class="btn btn-success py-3 px-4 animated slideInDown">Conocé
-                                    más</a>
+                                <a href="pileta.html" class="btn btn-success py-3 px-4 animated slideInDown">Imágenes</a>
                             </div>
                         </div>
                     </div>
